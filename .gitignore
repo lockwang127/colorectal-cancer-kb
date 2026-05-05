@@ -1,0 +1,59 @@
+# Mac 用户：不要提交 DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian 临时文件
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/*.json.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 大型数据文件（如果需要的话，用 Git LFS）
+*.mp4
+*.pdf
+*.pptx
+*.docx
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 私钥/敏感信息
+*.pem
+*.key
+config.json
+secrets.*
+.env
