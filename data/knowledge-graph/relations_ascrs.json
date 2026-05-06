@@ -1,2255 +1,5 @@
 [
   {
-    "head": "结肠癌手术",
-    "relation": "标准根治术式",
-    "tail": "结肠癌根治性切除术（CME原则）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "结肠癌手术",
-    "relation": "右半结肠切除范围",
-    "tail": "回肠末端至横结肠肝曲，包括回盲部",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "极限保肛手术",
-    "tail": "经肛全直肠系膜切除（taTME）",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "直肠癌",
-    "relation": "非保肛手术",
-    "tail": "腹会阴联合切除术（APR/Miles术）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌手术",
-    "relation": "微创手术",
-    "tail": "经自然腔道取标本手术（NOSES）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.88
-  },
-  {
-    "head": "结肠癌手术",
-    "relation": "CME原则核心要素",
-    "tail": "锐性分离脏层与壁层腹膜之间的解剖层面",
-    "source": "CME规范化手术共识",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "侧方淋巴结清扫适应证",
-    "tail": "影像学或临床怀疑侧方淋巴结转移",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.9
-  },
-  {
-    "head": "T1期结直肠癌",
-    "relation": "内镜切除后追加手术条件",
-    "tail": "黏膜下浸润深度≥1000μm（SM2-3）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "T1期结直肠癌",
-    "relation": "内镜切除后追加手术条件",
-    "tail": "肿瘤芽殖（BUD）分级B2/C",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.9
-  },
-  {
-    "head": "KRAS基因",
-    "relation": "预测意义",
-    "tail": "KRAS突变型不能从抗EGFR治疗中获益",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.98
-  },
-  {
-    "head": "NRAS基因",
-    "relation": "预测意义",
-    "tail": "NRAS突变型不能从抗EGFR治疗中获益",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.98
-  },
-  {
-    "head": "BRAF V600E突变",
-    "relation": "预后意义",
-    "tail": "BRAF V600E突变型预后差",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "BRAF V600E突变",
-    "relation": "分子特征",
-    "tail": "常伴MSI-H和CpG岛甲基化表型(CIMP)",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.93
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "检测方法",
-    "tail": "免疫组织化学(IHC)检测MLH1、PMS2、MSH2、MSH6",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.98
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "检测方法",
-    "tail": "PCR-NSTR方法检测微卫星不稳定（MSI-PCR）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.98
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "检测方法",
-    "tail": "NGS二代测序检测MSI及肿瘤突变负荷(TMB)",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "发生率",
-    "tail": "约占所有CRC的12-15%（转移性约3-5%）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.93
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "预后意义",
-    "tail": "II期MSI-H/dMMR预后较好",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "预测意义",
-    "tail": "对PD-1/PD-L1抑制剂高度敏感",
-    "source": "KEYNOTE-177研究",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.98
-  },
-  {
-    "head": "HER2扩增",
-    "relation": "检测方法",
-    "tail": "IHC(3+或2+需FISH确认)或NGS",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "HER2扩增",
-    "relation": "预后意义",
-    "tail": "HER2阳性提示预后较差（尤其伴RAS WT时）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "TMB-H",
-    "relation": "预测意义",
-    "tail": "高TMB提示可能从免疫治疗获益",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "KRAS G12D突变",
-    "relation": "发生率",
-    "tail": "约占所有CRC的17-18%（最常见KRAS突变亚型）",
-    "source": "DACCA数据库分析",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.9
-  },
-  {
-    "head": "KRAS exon 4突变",
-    "relation": "预后意义",
-    "tail": "KRAS G13D可能预后好于其他KRAS突变",
-    "source": "DACCA数据库分析",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.8
-  },
-  {
-    "head": "结直肠癌分子分型",
-    "relation": "CMS分型",
-    "tail": "CMS1（MSI Immune）：MSI-H、高突变、免疫激活",
-    "source": "Consensus Molecular Subtypes (CMS)",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌分子分型",
-    "relation": "CMS分型",
-    "tail": "CMS2（Canonical）：WNT/MYC活化、染色体不稳定",
-    "source": "Consensus Molecular Subtypes (CMS)",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌分子分型",
-    "relation": "CMS分型",
-    "tail": "CMS3（Metabolic）：代谢通路活化、KRAS突变富集",
-    "source": "Consensus Molecular Subtypes (CMS)",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌分子分型",
-    "relation": "CMS分型",
-    "tail": "CMS4（Mesenchymal）：TGF-β活化、间质浸润、血管生成",
-    "source": "Consensus Molecular Subtypes (CMS)",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "相关基因",
-    "tail": "MLH1、MSH2、MSH6、PMS2、EPCAM",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "筛查标准",
-    "tail": "Amsterdam II标准或Bethesda修订标准",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "监测策略",
-    "tail": "子宫内膜癌和卵巢癌筛查（女性）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "家族性腺瘤性息肉病(FAP)",
-    "relation": "诊断标准",
-    "tail": "≥100枚腺瘤性息肉或APC基因突变阳性",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "FOLFOXIRI方案",
-    "relation": "剂量",
-    "tail": "5-FU 3200mg/m2 CIV 48h + 奥沙利铂85mg/m2 + 伊立替康165mg/m2",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "帕博利珠单抗",
-    "relation": "剂量",
-    "tail": "200mg IV q3w 或 400mg IV q6w",
-    "source": "KEYNOTE-177研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "纳武利尤单抗",
-    "relation": "剂量",
-    "tail": "3mg/kg IV q2w 或 240mg q2w 或 480mg q4w",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "Sotorasib",
-    "relation": "剂量",
-    "tail": "960mg（8片）口服 每天一次",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "Encorafenib",
-    "relation": "剂量",
-    "tail": "300mg 口服 每天一次（联合Binimetinib+西妥昔单抗）",
-    "source": "BEACON CRC研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "T-DXd",
-    "relation": "剂量",
-    "tail": "5.4mg/kg IV q3w",
-    "source": "DESTINY-CRC01研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.9
-  },
-  {
-    "head": "dostarlimab",
-    "relation": "剂量",
-    "tail": "500mg IV q3w（4周期）后1000mg q6w",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "TAS-102",
-    "relation": "剂量",
-    "tail": "曲氟尿苷35mg/m2 bid d1-5、d8-12，每28天",
-    "source": "RECOURSE研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "伊立替康",
-    "relation": "用药前检测",
-    "tail": "UGT1A1基因多态性检测（*28/*28纯合子禁用或减量）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.92
-  },
-  {
-    "head": "奥沙利铂",
-    "relation": "过敏反应处理",
-    "tail": "减慢滴注速度或脱敏治疗（1-2级）；停药（3-4级）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "西妥昔单抗",
-    "relation": "皮肤毒性处理",
-    "tail": "痤疮样皮疹（推荐米诺环素/多西环素）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
-    "head": "贝伐珠单抗",
-    "relation": "特殊注意事项",
-    "tail": "动脉血栓栓塞事件（ATE）风险",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
-    "head": "瑞戈非尼",
-    "relation": "剂量",
-    "tail": "起始80mg qd，逐渐增量至120mg、160mg（耐受）",
-    "source": "CORRECT研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
-    "head": "MSI-H/dMMR结直肠癌",
-    "relation": "疗效评估（KEYNOTE-177）",
-    "tail": "ORR 43.8% vs 化疗33.1%；mPFS 16.5 vs 8.2个月",
-    "source": "KEYNOTE-177研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌新辅助放疗",
-    "relation": "短程方案",
-    "tail": "25Gy/5次（周一至周五），一周内手术",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌新辅助放疗",
-    "relation": "长程方案",
-    "tail": "50.4Gy/28次（5.5周），同步卡培他滨，后6-12周手术",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "免疫治疗优势人群",
-    "tail": "MSI-H/dMMR（最强证据）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "免疫治疗潜在获益人群",
-    "tail": "TMB-H（≥10 mut/Mb）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "MSS/pMMR结直肠癌",
-    "relation": "免疫联合方案",
-    "tail": "REGONIVO：瑞戈非尼+纳武利尤单抗",
-    "source": "REGONIVO研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.85
-  },
-  {
-    "head": "MSS/pMMR结直肠癌",
-    "relation": "免疫联合方案",
-    "tail": "LEAP-005：帕博利珠单抗+仑伐替尼",
-    "source": "LEAP-005研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.82
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "免疫相关不良反应(irAE)",
-    "tail": "免疫性肺炎（CTCAE 2级以上需暂停ICI）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "卡培他滨",
-    "relation": "剂量",
-    "tail": "1250mg/m2 bid d1-14，每3周重复（单药辅助）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "FOLFOXIRI",
-    "relation": "适应证",
-    "tail": "初始可切除肝/肺转移转化治疗（RAS/BRAF WT优先）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "TME质量评估",
-    "tail": "直肠系膜完整性评分（Quirke 1-4分）",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌手术",
-    "relation": "腹腔镜vs开腹",
-    "tail": "长期 oncologic outcomes相当",
-    "source": "ACOSOG Z6051/ALaCaRT研究",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌手术",
-    "relation": "CME原则",
-    "tail": "右半结肠癌：Treitz韧带至结肠肝曲系膜完整切除",
-    "source": "CME规范化手术共识",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌手术",
-    "relation": "CME原则",
-    "tail": "左半结肠癌：结肠脾曲至乙状结肠根部系膜完整切除",
-    "source": "CME规范化手术共识",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "急诊手术原则",
-    "tail": "肿瘤一期切除+吻合（若条件允许）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "急诊手术原则",
-    "tail": "Hartmann术（肿瘤切除+近端造口）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "APR手术",
-    "tail": "腹会阴联合切除术（含肛管和括约肌）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "APR手术",
-    "tail": "肛门外括约肌（EAS）受累时必须行APR",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "早期结直肠癌",
-    "relation": "内镜切除后追加手术条件",
-    "tail": "黏膜下深层癌（>50%低分化成分）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌肝转移",
-    "relation": "手术适应证",
-    "tail": "R0切除（切缘>1mm）且保留足够肝功能",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌肝转移",
-    "relation": "可切除性评估",
-    "tail": "同时性肝转移可分阶段切除或转化后切除",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.93
-  },
-  {
-    "head": "直肠癌",
-    "relation": "保肛术前评估",
-    "tail": "高分辨率MRI测量肿瘤下缘距肛直肠环距离",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "T4期手术",
-    "tail": "联合脏器切除（如受累膀胱、子宫、卵巢等）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "APR术后会阴部重建",
-    "tail": "股薄肌皮瓣或臀大肌皮瓣（预防性重建）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.85
-  },
-  {
-    "head": "KRAS外显子2",
-    "relation": "突变亚型",
-    "tail": "G12D（最常见，约40%）、G12V（约35%）、G12C等",
-    "source": "DACCA数据库分析",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.93
-  },
-  {
-    "head": "KRAS G12C",
-    "relation": "靶向药物",
-    "tail": "Garsorasib（格索雷西布，国产）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.85
-  },
-  {
-    "head": "MSI-H",
-    "relation": "临床意义",
-    "tail": "II期可不行辅助化疗（预后好）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "基因检测标准",
-    "tail": "MLH1启动子甲基化检测（排除散发性MSI-H）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "BRAF V600E",
-    "relation": "检测方法",
-    "tail": "IHC（VE1抗体）或PCR/NGS",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.97
-  },
-  {
-    "head": "CMS4型",
-    "relation": "预后意义",
-    "tail": "CMS4（间质型）：预后最差，对贝伐珠单抗可能更敏感",
-    "source": "CMS Consortium研究",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.85
-  },
-  {
-    "head": "CMS2型",
-    "relation": "预后意义",
-    "tail": "CMS2（经典型）：预后相对较好",
-    "source": "CMS Consortium研究",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.85
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "分子检测panel要求",
-    "tail": "KRAS/NRAS/BRAF/HER2/MSI（至少）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "分子检测panel要求",
-    "tail": "TMB、NTRK、POLE/POLD1（扩展panel）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.9
-  },
-  {
-    "head": "RET融合",
-    "relation": "靶向治疗",
-    "tail": "Selpercatinib（塞普替尼）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "基因靶点",
-    "confidence": 0.85
-  },
-  {
-    "head": "LARS",
-    "relation": "评分量表项目",
-    "tail": "排气失禁、排便失禁、频率、排便急迫、便秘",
-    "source": "国际LARS共识",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.97
-  },
-  {
-    "head": "LARS",
-    "relation": "永久性造口率",
-    "tail": "重度LARS保守治疗失败后永久性造口率约5-10%",
-    "source": "LARS临床研究",
-    "evidence": "II级",
-    "domain": "LARS与并发症",
-    "confidence": 0.85
-  },
-  {
-    "head": "吻合口漏B型",
-    "relation": "定义",
-    "tail": "需积极干预（引流/抗生素），不需手术",
-    "source": "ISREC分级",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠吻合口漏",
-    "relation": "诊断方法",
-    "tail": "术后CT盆腔增强扫描（最常用）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.93
-  },
-  {
-    "head": "吻合口漏",
-    "relation": "远期影响",
-    "tail": "影响直肠癌术后肛门功能（LARS加重）",
-    "source": "LARS临床研究",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.9
-  },
-  {
-    "head": "术后早期肠梗阻",
-    "relation": "定义",
-    "tail": "术后30天内肠功能恢复延迟伴腹胀/恶心/呕吐",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.93
-  },
-  {
-    "head": "术后早期肠梗阻",
-    "relation": "治疗",
-    "tail": "保守治疗（胃肠减压、补液、营养支持）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.95
-  },
-  {
-    "head": "回肠造口",
-    "relation": "特点",
-    "tail": "输出物稀薄、量大（每日500-1800ml）",
-    "source": "造口护理专家共识",
-    "evidence": "专家共识",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "回肠造口",
-    "relation": "并发症",
-    "tail": "脱水（高输出量导致水电解质紊乱）",
-    "source": "造口护理专家共识",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "CEA假阳性原因",
-    "tail": "吸烟、肝病、肾功能不全、其他肿瘤",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "CEA",
-    "relation": "参考范围",
-    "tail": "<5ng/mL（多数实验室标准）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "肝转移随访",
-    "tail": "腹部增强CT或MRI每6-12个月",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "骨转移评估",
-    "tail": "骨扫描或PET-CT（有症状时）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "FIT筛查",
-    "relation": "阳性阈值",
-    "tail": "粪便血红蛋白≥20μg/g或≥40ng/mL",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "化学预防",
-    "tail": "阿司匹林（长期使用可降低CRC发生率和CRC特异性死亡率）",
-    "source": "WCRF/AICR报告",
-    "evidence": "II级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.82
-  },
-  {
-    "head": "FAP预防性手术",
-    "relation": "术式",
-    "tail": "全结直肠切除+回肠储袋肛管吻合术（IPAA）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "T1期SM浸润深度",
-    "relation": "分级",
-    "tail": "SM1：<1000μm；SM2：≥1000μm",
-    "source": "WHO Classification of Tumours",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "KRAS突变",
-    "relation": "亚型预后差异",
-    "tail": "G12C/G12V/G12D亚型间预后可能不同（G12C最差）",
-    "source": "DACCA数据库分析",
-    "evidence": "II级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.82
-  },
-  {
-    "head": "II期结直肠癌",
-    "relation": "辅助化疗适应证",
-    "tail": "高危II期（T4/脉管侵犯/神经侵犯/<12枚淋巴结/梗阻/穿孔/低分化）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "III期结直肠癌",
-    "relation": "辅助化疗适应证",
-    "tail": "所有III期术后均推荐辅助化疗",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "无病生存(DFS)分期差异",
-    "tail": "I期：约80-85%；II期：约70-80%；III期：约50-65%",
-    "source": "SEER数据库",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "ctDNA",
-    "relation": "MRD检测技术",
-    "tail": "CIRCULATE-SATINTO/WedEKIND等ctDNA MRD检测平台",
-    "source": "CIRCULATE-Japan研究",
-    "evidence": "II级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.88
-  },
-  {
-    "head": "DYNAMIC研究",
-    "relation": "结论",
-    "tail": "ctDNA阳性II/III期CRC术后复发风险显著更高（HR=10.82）",
-    "source": "DYNAMIC研究",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "DYNAMIC研究",
-    "relation": "结论",
-    "tail": "ctDNA阳性者加用辅助化疗改善DFS",
-    "source": "DYNAMIC研究",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "能量目标",
-    "tail": "25-30kcal/kg/天（非肥胖患者）",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "加速康复外科(ERAS)",
-    "tail": "术前2小时可进食清流质（下消化道手术）",
-    "source": "ERAS Society指南",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "加速康复外科(ERAS)",
-    "tail": "术后多模式镇痛（减少阿片类药物）",
-    "source": "ERAS Society指南",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "加速康复外科(ERAS)",
-    "tail": "术后早期下床活动（24小时内）",
-    "source": "ERAS Society指南",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "第8版AJCC分期更新",
-    "tail": "将癌结节（TD）从N1c改为纳入N分期",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌MRI",
-    "relation": "评估内容",
-    "tail": "T分期、N分期、CRM、EMVI、肿瘤高度",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.95
-  },
-  {
-    "head": "PET-CT",
-    "relation": "直肠癌应用",
-    "tail": "远处转移评估（不作为直肠T/N分期）",
-    "source": "NCCN Guidelines Rectal Cancer 2024",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.93
-  },
-  {
-    "head": "直肠腔内超声(EUS)",
-    "relation": "应用",
-    "tail": "早期cT1N0分期（优于MRI）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.93
-  },
-  {
-    "head": "新辅助治疗后再分期",
-    "relation": "评估方法",
-    "tail": "MRI+DWI（判断肿瘤退缩）",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.93
-  },
-  {
-    "head": "直肠癌新辅助治疗",
-    "relation": "TRG分级",
-    "tail": "Mandard TRG 1-5级（1=完全缓解，5=无缓解）",
-    "source": "Mandard TRG分级系统",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.93
-  },
-  {
-    "head": "ypTNM分期",
-    "relation": "定义",
-    "tail": "新辅助治疗后病理分期（ypT/ypN）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.95
-  },
-  {
-    "head": "肝转移可切除性",
-    "relation": "评估标准",
-    "tail": "残肝体积≥30%（肝硬化≥40%）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "同时性肝转移",
-    "tail": "原发灶确诊时或确诊后6个月内发现的肝转移",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "异时性肝转移",
-    "tail": "原发灶确诊6个月后发现的肝转移",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "外科手术",
-    "confidence": 0.97
-  },
-  {
-    "head": "转化治疗",
-    "relation": "评估周期",
-    "tail": "每2-3个月评估一次（影像学）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
-    "head": "氟尿嘧啶类药物",
-    "relation": "DPD酶缺乏筛查",
-    "tail": "检测DPD酶活性或DPYD基因多态性",
-    "source": "ESMO指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.92
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "II期预后",
-    "tail": "MSI-H/dMMR II期预后良好，辅助化疗不获益",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.97
-  },
-  {
-    "head": "CMS1型",
-    "relation": "分子特征",
-    "tail": "MSI-H/免疫激活型，BRAF V600E突变富集",
-    "source": "CMS Consortium研究",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.93
-  },
-  {
-    "head": "CMS3型",
-    "relation": "分子特征",
-    "tail": "代谢通路活化，KRAS突变富集",
-    "source": "CMS Consortium研究",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.93
-  },
-  {
-    "head": "ctDNA",
-    "relation": "动态监测",
-    "tail": "术后ctDNA阳性比影像学早2-6个月提示复发",
-    "source": "DYNAMIC研究",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.92
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "5年生存率（全球）",
-    "tail": "约60-65%（所有分期平均）",
-    "source": "GLOBOCAN 2022",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "5年生存率（中国）",
-    "tail": "约50-56%（所有分期平均）",
-    "source": "国家癌症中心2024",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "性别差异",
-    "tail": "男性发病率略高于女性（约1.2:1）",
-    "source": "GLOBOCAN 2022",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "保肛率",
-    "tail": "极限保肛手术（ISR）保肛率可达70-80%",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.88
-  },
-  {
-    "head": "taTME",
-    "relation": "适应证",
-    "tail": "中低位直肠癌，尤其男性、肥胖、骨盆狭窄患者",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.85
-  },
-  {
-    "head": "taTME",
-    "relation": "争议",
-    "tail": "术后局部复发率较高（需谨慎选择）",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.85
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "围手术期输血",
-    "tail": "围手术期输血可能影响长期生存（争议）",
-    "source": "文献综合",
-    "evidence": "II级",
-    "domain": "外科手术",
-    "confidence": 0.8
-  },
-  {
-    "head": "直肠癌",
-    "relation": "TME完全质量标准",
-    "tail": "CRM阴性+ DRM阴性+直肠系膜完整",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "II期直肠癌",
-    "relation": "新辅助治疗",
-    "tail": "T3 N0高危时考虑新辅助放化疗",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "错配修复缺陷(dMMR)",
-    "relation": "与林奇综合征",
-    "tail": "dMMR不一定等于林奇综合征，需排除MLH1启动子甲基化",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "PikoTone",
-    "relation": "结直肠癌筛查",
-    "tail": "粪便多靶点FIT-DNA检测（FDA批准）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "中国高发地区",
-    "tail": "辽东半岛、山东半岛、江浙沪、珠三角",
-    "source": "国家癌症中心2024",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "错配修复完整(pMMR)",
-    "relation": "定义",
-    "tail": "4种MMR蛋白表达完整（MLH1、PMS2、MSH2、MSH6均阳性）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "基因靶点",
-    "confidence": 0.97
-  },
-  {
-    "head": "ctDNA定量",
-    "relation": "MRD阈值",
-    "tail": "目前ctDNA MRD阳性阈值尚无统一标准（0.1%-1%区间不等）",
-    "source": "CIRCULATE-Japan研究",
-    "evidence": "II级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.82
-  },
-  {
-    "head": "T-DXd",
-    "relation": "特殊不良反应",
-    "tail": "间质性肺病（ILD）/肺炎（需监测呼吸症状）",
-    "source": "DESTINY-CRC01研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.9
-  },
-  {
-    "head": "Sotorasib/Adagrasib",
-    "relation": "耐药机制",
-    "tail": "继发性KRAS突变或下游通路激活",
-    "source": "KRYSTAL-1研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "KRAS检测时机",
-    "tail": "转移灶活检时必须检测（同时检测NRAS/BRAF）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "肝转移分期",
-    "tail": "同时性肝转移（确诊时发现）vs异时性肝转移（确诊>6个月后）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "肺转移",
-    "tail": "直肠癌更常见（直肠癌约30%发生肺转移）",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "II级",
-    "domain": "分期系统",
-    "confidence": 0.9
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "锁骨上淋巴结转移",
-    "tail": "Virchow淋巴结肿大提示远处转移",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.95
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "子宫内膜癌风险",
-    "tail": "女性携带者终身风险约40-60%",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "林奇综合征",
-    "relation": "其他肿瘤风险",
-    "tail": "卵巢癌、胃癌、尿路上皮癌等其他林奇相关肿瘤",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "FAP",
-    "relation": "APC基因突变热点",
-    "tail": "密码子1309、1061、1465",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "FAP",
-    "relation": "变异型",
-    "tail": "经典型FAP（>100枚息肉）、轻表型FAP/AFAP（10-100枚）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "PJ综合征",
-    "relation": "相关基因",
-    "tail": "STK11/LKB1基因胚系突变",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "幼年性息肉病(JPS)",
-    "relation": "相关基因",
-    "tail": "SMAD4或BMPR1A基因胚系突变",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "CME手术质量指标",
-    "tail": "环周切缘阴性+足够淋巴结数目+完整系膜",
-    "source": "CME规范化手术共识",
-    "evidence": "I级",
-    "domain": "外科手术",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "T4a期",
-    "tail": "T4a：穿透脏层腹膜（直肠上段有腹膜覆盖区）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "T4b期",
-    "tail": "T4b：直接侵犯其他器官或结构（肛管、肛提肌等）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "腹膜反折",
-    "tail": "腹膜反折以上为上段，以下为中下段",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "保肛高度分类",
-    "tail": "上段>10cm、中段5-10cm、下段<5cm（距肛缘）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "直肠癌",
-    "relation": "中低位定义",
-    "tail": "中位直肠癌（5-10cm）+低位直肠癌（<5cm）",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "专家共识",
-    "domain": "分期系统",
-    "confidence": 0.97
-  },
-  {
-    "head": "MSI-H",
-    "relation": "免疫治疗疗效",
-    "tail": "MSI-H/dMMR CRC对PD-1/PD-L1抑制剂应答率60-70%",
-    "source": "KEYNOTE-177研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "MSI-H/dMMR",
-    "relation": "辅助免疫治疗证据",
-    "tail": "KEYNOTE-177亚组：帕博利珠单抗辅助治疗III期MSI-H CRC",
-    "source": "KEYNOTE-177研究扩展",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "MSS/pMMR",
-    "relation": "TNT模式疗效",
-    "tail": "TNT模式pCR率30-38%，括约肌保留率提高",
-    "source": "PRODIGE 23研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.92
-  },
-  {
-    "head": "II期结直肠癌",
-    "relation": "辅助化疗争议",
-    "tail": "低危II期（微卫星高度不稳定）不建议辅助化疗",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "II期高危结直肠癌",
-    "relation": "辅助化疗",
-    "tail": "单药卡培他滨或联合奥沙利铂（FOLFOX/CAPOX）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "BRAF V600E突变",
-    "relation": "靶向治疗",
-    "tail": "康奈非尼(Binimetinib)+Encorafenib+西妥昔单抗（BEACON方案）",
-    "source": "BEACON CRC研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "HER2扩增",
-    "relation": "检测标准",
-    "tail": "IHC 3+（>50%肿瘤细胞）或 IHC 2+且FISH阳性",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "直肠癌",
-    "relation": "MRI评估T分期",
-    "tail": "T2加权+弥散（DWI）提高T分期准确率",
-    "source": "ESMO Guidelines Rectal Cancer 2023",
-    "evidence": "I级",
-    "domain": "分期系统",
-    "confidence": 0.93
-  },
-  {
-    "head": "吻合口漏",
-    "relation": "预防措施",
-    "tail": "近端造口（推荐低位直肠癌<7cm）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.95
-  },
-  {
-    "head": "吻合口漏",
-    "relation": "预防措施",
-    "tail": "新辅助放疗后建议推迟手术至6-12周",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.93
-  },
-  {
-    "head": "吻合口漏C型",
-    "relation": "治疗",
-    "tail": "急诊手术（切除吻合口+造口或Hartmann术）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.97
-  },
-  {
-    "head": "LARS",
-    "relation": "盆底肌训练",
-    "tail": "收缩盆底肌10秒、放松10秒，每天3组，每组10-15次",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "无病生存期(DFS)",
-    "tail": "III期术后辅助化疗DFS约50-65%（5年）",
-    "source": "SEER数据库",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "总生存期(OS)",
-    "tail": "II期术后5年OS约75-85%",
-    "source": "SEER数据库",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.93
-  },
-  {
-    "head": "分子残留疾病(MRD)",
-    "relation": "定义",
-    "tail": "影像学或临床证据无法检测到的残留肿瘤细胞",
-    "source": "DYNAMIC研究",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "ctDNA",
-    "relation": "ctDNA阴性意义",
-    "tail": "ctDNA阴性提示复发风险低，可考虑降阶治疗",
-    "source": "DYNAMIC研究",
-    "evidence": "II级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.88
-  },
-  {
-    "head": "中国结直肠癌筛查",
-    "relation": "方法",
-    "tail": "问卷评估+FIT+结肠镜（两步法）",
-    "source": "中国结直肠癌筛查指南2023",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "高危腺瘤定义",
-    "tail": "≥3枚腺瘤或任一腺瘤≥1cm或伴高级别上皮内瘤变",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "进展期腺瘤",
-    "tail": "腺瘤≥10mm或绒毛状成分≥25%或高级别上皮内瘤变",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "饮食预防",
-    "tail": "减少红肉摄入（<500g/周）",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "饮食预防",
-    "tail": "增加膳食纤维摄入（≥25g/天）",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "体力活动",
-    "tail": "规律中等强度运动（每周150分钟）可降低CRC风险",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "体重管理",
-    "tail": "维持BMI 18.5-24.9降低CRC风险",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "戒烟",
-    "tail": "吸烟者CRC风险增加约1.2-1.5倍",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "饮酒",
-    "tail": "男性每日饮酒≤2标准杯（约25g纯酒精），女性≤1标准杯",
-    "source": "WCRF/AICR报告",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "预防",
-    "tail": "阿司匹林（长期）可降低CRC风险（仅限特定人群）",
-    "source": "WCRF/AICR报告",
-    "evidence": "II级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.82
-  },
-  {
-    "head": "转移性结直肠癌",
-    "relation": "一线治疗",
-    "tail": "FOLFOX方案（5-FU+奥沙利铂+亚叶酸钙）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "转移性结直肠癌",
-    "relation": "一线治疗",
-    "tail": "FOLFIRI方案（5-FU+伊立替康+亚叶酸钙）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "转移性结直肠癌",
-    "relation": "一线治疗",
-    "tail": "FOLFOXIRI方案（三药联合）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "BRAF V600E突变结直肠癌",
-    "relation": "靶向治疗",
-    "tail": "Encorafenib+Binimetinib+西妥昔单抗",
-    "source": "BEACON CRC研究",
-    "evidence": "I级",
-    "domain": "基因靶点",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "三线治疗",
-    "tail": "TAS-102（曲氟尿苷替匹嘧啶）",
-    "source": "RECOURSE研究/CSCO 2024",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "III期结直肠癌",
-    "relation": "术后辅助化疗",
-    "tail": "CAPOX方案（卡培他滨+奥沙利铂）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "直肠癌",
-    "relation": "TNT新辅助治疗",
-    "tail": "诱导化疗+同步放化疗+巩固化疗",
-    "source": "NCCN Guidelines Rectal Cancer 2024",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "辅助化疗时长",
-    "tail": "III期高危：6个月FOLFOX",
-    "source": "IDEA研究/CSCO 2024",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "维持治疗",
-    "tail": "5-FU/卡培他滨+贝伐珠单抗",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "靶向药物禁忌",
-    "tail": "RAS/BRAF突变禁用EGFR单抗",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌腹膜转移",
-    "relation": "治疗策略",
-    "tail": "CRS减瘤术+HIPEC（争议）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.82
-  },
-  {
-    "head": "FOLFOX方案",
-    "relation": "剂量",
-    "tail": "奥沙利铂85mg/m2 IV d1 + 5-FU 400mg/m2 IV bolus d1 + 5-FU 2400mg/m2 CIV 46h",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "FOLFIRI方案",
-    "relation": "剂量",
-    "tail": "伊立替康180mg/m2 IV d1 + 5-FU 400mg/m2 IV bolus + 5-FU 2400mg/m2 CIV 46h",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "CAPOX方案",
-    "relation": "剂量",
-    "tail": "奥沙利铂130mg/m2 IV d1 + 卡培他滨1000mg/m2 bid d1-14",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "西妥昔单抗",
-    "relation": "剂量",
-    "tail": "首剂400mg/m2 IV，维持250mg/m2 IV qw",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "帕尼单抗",
-    "relation": "剂量",
-    "tail": "6mg/kg IV q2w 或 初次400mg/m2后250mg/m2 qw",
-    "source": "NCCN Guidelines Colon Cancer 2024",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "贝伐珠单抗",
-    "relation": "剂量",
-    "tail": "5mg/kg q2w 或 7.5mg/kg q3w",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "呋喹替尼",
-    "relation": "剂量",
-    "tail": "5mg qd d1-21，每28天为一周期",
-    "source": "FRESCO研究",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "瑞戈非尼",
-    "relation": "剂量",
-    "tail": "160mg qd d1-21，每28天为一周期",
-    "source": "CORRECT研究",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "局部进展期结肠癌",
-    "relation": "新辅助化疗",
-    "tail": "FOLFOX/CAPOX（临床试验阶段）",
-    "source": "FOxtrot研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "总生存期（中位）",
-    "tail": "MSI-H一线免疫治疗：未达到（NR）",
-    "source": "KEYNOTE-177研究",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "T分期定义",
-    "tail": "T4b：直接侵犯邻近器官或结构",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "N分期定义",
-    "tail": "N1b：2-3枚区域淋巴结转移",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "N分期定义",
-    "tail": "N1c：肿瘤芽转移至区域淋巴结外（不含标准淋巴结）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "N分期定义",
-    "tail": "N2：4枚及以上区域淋巴结转移",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "N分期定义",
-    "tail": "N2a：4-6枚区域淋巴结转移",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "N分期定义",
-    "tail": "N2b：7枚及以上区域淋巴结转移",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "M分期定义",
-    "tail": "M1a：远处转移局限于一个器官（无腹膜转移）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "M分期定义",
-    "tail": "M1b：远处转移超过一个器官（无腹膜转移）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "M分期定义",
-    "tail": "M1c：腹膜转移（伴或不伴其他器官转移）",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "造口",
-    "relation": "类型",
-    "tail": "末端回肠造口（预防性/治疗性）",
-    "source": "造口护理专家共识",
-    "evidence": "专家共识",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.98
-  },
-  {
-    "head": "预防性回肠造口",
-    "relation": "还纳时机",
-    "tail": "术后3-6个月（吻合口愈合后）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "造口护理",
-    "relation": "底盘更换频率",
-    "tail": "一般3-7天（根据个体差异调整）",
-    "source": "造口护理专家共识",
-    "evidence": "专家共识",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.92
-  },
-  {
-    "head": "造口护理",
-    "relation": "观察要点",
-    "tail": "造口颜色（正常为粉红色/鲜红色）",
-    "source": "造口护理专家共识",
-    "evidence": "专家共识",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测频率",
-    "tail": "术后3-5年内每6-12个月一次",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测项目",
-    "tail": "CEA/CA19-9（每3-6个月）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测项目",
-    "tail": "胸腹盆CT（每6-12个月，共3年）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测项目",
-    "tail": "结肠镜（术后1年，之后每3-5年）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测项目",
-    "tail": "直肠MRI（直肠癌术后每6-12个月，共2-3年）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌随访",
-    "relation": "监测项目",
-    "tail": "胸部CT（直肠癌术后每年一次，共3年）",
-    "source": "CSCO 2024 直肠癌诊疗指南",
-    "evidence": "II级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.9
-  },
-  {
-    "head": "ctDNA MRD检测",
-    "relation": "随访应用",
-    "tail": "术后ctDNA阳性提示早期复发风险",
-    "source": "DYNAMIC研究",
-    "evidence": "II级",
-    "domain": "系统治疗",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌筛查",
-    "relation": "起始年龄",
-    "tail": "林奇综合征：20-25岁或家族最早发病年龄前2-5年",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌筛查",
-    "relation": "起始年龄",
-    "tail": "FAP：10-12岁开始结肠镜监测",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "造口·随访·筛查",
-    "confidence": 0.97
-  },
-  {
-    "head": "高危人群",
-    "relation": "定义",
-    "tail": "炎症性肠病（溃疡性结肠炎、克罗恩病）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "LARS",
-    "relation": "定义",
-    "tail": "低位前切除综合征（Low Anterior Resection Syndrome）",
-    "source": "国际LARS共识",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.98
-  },
-  {
-    "head": "LARS",
-    "relation": "发生率",
-    "tail": "约50-90%（低位前切除术后）",
-    "source": "华西医院DACCA数据库分析",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.95
-  },
-  {
-    "head": "LARS",
-    "relation": "主要表现",
-    "tail": "排便急迫（≥3次/天，不能延迟）",
-    "source": "国际LARS共识",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.95
-  },
-  {
-    "head": "LARS",
-    "relation": "评分工具",
-    "tail": "LARS评分量表（0-42分）",
-    "source": "国际LARS共识",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.97
-  },
-  {
-    "head": "LARS评分",
-    "relation": "分级标准",
-    "tail": "0-20分：无LARS；21-29分：轻度；30-42分：重度",
-    "source": "国际LARS共识",
-    "evidence": "专家共识",
-    "domain": "LARS与并发症",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠吻合口",
-    "relation": "缺血相关因素",
-    "tail": "术前合并症（糖尿病、动脉硬化）",
-    "source": "吻合口漏预防专家共识",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.92
-  },
-  {
-    "head": "结直肠吻合口漏",
-    "relation": "治疗策略",
-    "tail": "再次手术（弥漫性腹膜炎/脓毒症）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "LARS与并发症",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠吻合口狭窄",
-    "relation": "发生率",
-    "tail": "约5-15%（保护性造口还纳后）",
-    "source": "吻合口漏预防专家共识",
-    "evidence": "II级",
-    "domain": "LARS与并发症",
-    "confidence": 0.9
-  },
-  {
-    "head": "结直肠吻合口狭窄",
-    "relation": "治疗策略",
-    "tail": "再次手术切除+重建（顽固性狭窄）",
-    "source": "吻合口漏预防专家共识",
-    "evidence": "II级",
-    "domain": "LARS与并发症",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌病理",
-    "relation": "肿瘤出芽（Tumor Budding）分级",
-    "tail": "Bd1：0-4个芽/HPF（低级别）",
-    "source": "ITBCC consensus",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌病理",
-    "relation": "肿瘤出芽（Tumor Budding）分级",
-    "tail": "Bd2：5-9个芽/HPF（中级别）",
-    "source": "ITBCC consensus",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌病理",
-    "relation": "肿瘤出芽（Tumor Budding）分级",
-    "tail": "Bd3：≥10个芽/HPF（高级别）",
-    "source": "ITBCC consensus",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌病理",
-    "relation": "肿瘤沉积（Tumor Deposit）定义",
-    "tail": "病理上无可辨认的淋巴结结构的癌结节",
-    "source": "AJCC Cancer Staging Manual 8th Edition",
-    "evidence": "专家共识",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌病理",
-    "relation": "病理报告必备要素",
-    "tail": "浸润深度（pT）、淋巴结状态（pN）、远处转移（pM）",
-    "source": "CAP Cancer Protocols",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "营养筛查",
-    "tail": "NRS-2002评分（≥3分：营养不良风险）",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "营养筛查",
-    "tail": "PG-SGA评分（肿瘤专用营养评估工具）",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "术前营养支持",
-    "tail": "严重营养不良者术前营养支持7-10天",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.95
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "术后营养支持",
-    "tail": "术后24-48小时开始肠内营养",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "术后营养支持",
-    "tail": "肠外营养（PN）仅用于EN无法实施时",
-    "source": "ESPEN Guidelines",
-    "evidence": "I级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌营养支持",
-    "relation": "免疫营养",
-    "tail": "含精氨酸、ω-3脂肪酸、核苷酸的免疫营养配方",
-    "source": "ESPEN Guidelines",
-    "evidence": "II级",
-    "domain": "病理·营养·预后",
-    "confidence": 0.88
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "预后良好因素",
-    "tail": "MSI-H/dMMR（II期）",
-    "source": "CSCO 2024 结直肠癌诊疗指南",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.97
-  },
-  {
-    "head": "结直肠癌",
-    "relation": "5年总生存率（IV期）",
-    "tail": "约10-15%（积极治疗可达25-30%）",
-    "source": "SEER数据库",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
-    "head": "结直肠癌流行病学",
-    "relation": "全球新发病例",
-    "tail": "约190万/年（2022年GLOBOCAN）",
-    "source": "GLOBOCAN 2022",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌流行病学",
-    "relation": "全球死亡病例",
-    "tail": "约90万/年（2022年GLOBOCAN）",
-    "source": "GLOBOCAN 2022",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.98
-  },
-  {
-    "head": "结直肠癌流行病学",
-    "relation": "发病年龄趋势",
-    "tail": "早发性CRC（<50岁）发病率上升",
-    "source": "GLOBOCAN 2022",
-    "evidence": "I级",
-    "domain": "系统治疗",
-    "confidence": 0.93
-  },
-  {
     "head": "阑尾肿瘤",
     "relation": "诊疗原则",
     "tail": "(ASCRS) is dedicated to ensuring high-quality develop clinical practice guidelin",
@@ -5692,6 +3442,14 @@
   {
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
+    "tail": "tion: strong recommendation based on moderate-quality evidence, 1B. A recommendation on this",
+    "source": "ASCRS Clinical Practice Guidelines - Inherited Adenomatous Polyposis Syndromes 2022",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
     "tail": "outcomes that are equivalent to open or straight laparoscopic techniques. Strong recommendation based",
     "source": "ASCRS Clinical Practice Guidelines - Inherited Adenomatous Polyposis Syndromes 2022",
     "evidence": "I级专家共识",
@@ -8724,6 +6482,14 @@
   {
     "head": "肛管鳞状细胞癌",
     "relation": "诊疗方案",
+    "tail": "and rectal cancer: an analysis of prognostic factors in 201 pa- surgery for mid-",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "肛管癌"
+  },
+  {
+    "head": "肛管鳞状细胞癌",
+    "relation": "诊疗方案",
     "tail": "open-label, non-inferiority, randomised controlled trial. Lan- for mid-to-low re",
     "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
     "evidence": "I级专家共识",
@@ -9501,6 +7267,46 @@
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
     "tail": "TABLE 1. The GRADE system: grading recommendations",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1A Strong recommendation, Benefits clearly outweigh risk RCTs without important limitations Strong recommendation, can",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1B Strong recommendation, Benefits clearly outweigh risk RCTs with important limitations Strong recommendation, can",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1C Strong recommendation, Benefits clearly outweigh risk Observational studies or case series Strong recommendation but",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "2B Weak recommendations, Benefits closely balanced with RCTs with important limitations Weak recommendation, best",
+    "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "Adapted from Guyatt G, Gutermen D, Baumann MH, et al. Grading strength of recommendations and quality of evidence in clinical guidelines: report from an American",
     "source": "ASCRS Clinical Practice Guidelines - Management of Rectal Cancer 2020",
     "evidence": "I级专家共识",
     "domain": "系统治疗"
@@ -11740,6 +9546,14 @@
   {
     "head": "肛管鳞状细胞癌",
     "relation": "诊疗方案",
+    "tail": "radical surgery? A systematic review and meta-analysis. Int J et al. Impact of t",
+    "source": "ASCRS Clinical Practice Guidelines - Rectal Cancer 2023 Supplement",
+    "evidence": "I级专家共识",
+    "domain": "肛管癌"
+  },
+  {
+    "head": "肛管鳞状细胞癌",
+    "relation": "诊疗方案",
     "tail": "31. Denost Q, Fleming CA, Burghgraef T, et al; Dutch MIRECA review and meta-anal",
     "source": "ASCRS Clinical Practice Guidelines - Rectal Cancer 2023 Supplement",
     "evidence": "I级专家共识",
@@ -12213,6 +10027,14 @@
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
     "tail": "3 Following neoadjuvant therapy for rectal cancer, patients should be assessed to Strong Low",
+    "source": "ASCRS Clinical Practice Guidelines - Rectal Cancer 2023 Supplement",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "GRADE = Grading of Recommendations, Assessments, Development, and Evaluation; TME = total mesorectal excision.",
     "source": "ASCRS Clinical Practice Guidelines - Rectal Cancer 2023 Supplement",
     "evidence": "I级专家共识",
     "domain": "系统治疗"
@@ -13581,6 +11403,14 @@
     "head": "造口管理",
     "relation": "临床要点",
     "tail": "end discharges to home were significantly associated with before ileostomy closu",
+    "source": "ASCRS Clinical Practice Guidelines - Ostomy Surgery 2021",
+    "evidence": "I级专家共识",
+    "domain": "造口·随访·筛查"
+  },
+  {
+    "head": "造口管理",
+    "relation": "临床要点",
+    "tail": "OSTOMY CLOSURE",
     "source": "ASCRS Clinical Practice Guidelines - Ostomy Surgery 2021",
     "evidence": "I级专家共识",
     "domain": "造口·随访·筛查"
@@ -15674,6 +13504,14 @@
     "domain": "系统治疗"
   },
   {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "GRADE = Grades of Recommendation, Assessment, Development, and Evaluation; RCTs = randomized controlled trials.",
+    "source": "ASCRS Clinical Practice Guidelines - Ostomy Surgery 2021",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
     "head": "结直肠癌随访",
     "relation": "ASCRS推荐",
     "tail": "dation: strong recommendation based on moderate- study, the study group had less leakage from the ostomy",
@@ -17300,6 +15138,14 @@
   {
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
+    "tail": "2C Weak Uncertainty in the estimates of Observational studies or case series Very weak recommendations;",
+    "source": "ASCRS Clinical Practice Guidelines - Perioperative Evaluation and Management of Frailty 2022",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
     "tail": "recommendation, benefits, risks, and burden; other alternatives may be",
     "source": "ASCRS Clinical Practice Guidelines - Perioperative Evaluation and Management of Frailty 2022",
     "evidence": "I级专家共识",
@@ -18132,6 +15978,14 @@
   {
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
+    "tail": "2C Weak recommendation, Uncertainty in the estimates of Observational studies or case series Very weak recommendations,",
+    "source": "ASCRS Clinical Practice Guidelines - Surgical Treatment of Lynch Syndrome 2021",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
     "tail": "Table was adapted from Guyatt et al.1 Grading strength of recommendations and quality of evidence in clinical guidelines are found in a report from the American College of",
     "source": "ASCRS Clinical Practice Guidelines - Surgical Treatment of Lynch Syndrome 2021",
     "evidence": "I级专家共识",
@@ -18277,6 +16131,14 @@
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
     "tail": "1. Giardiello FM, Allen JI, Axilbund JE, et al. Guidelines on genet- 16. lindor nm, Petersen Gm, hadley DW, et al. Recommendations",
+    "source": "ASCRS Clinical Practice Guidelines - Surgical Treatment of Lynch Syndrome 2021",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "of recommendations and quality of evidence in clinical guide- fulfilling the amsterdam criteria. Ann Surg. 2013;257:900–904.",
     "source": "ASCRS Clinical Practice Guidelines - Surgical Treatment of Lynch Syndrome 2021",
     "evidence": "I级专家共识",
     "domain": "系统治疗"
@@ -18440,6 +16302,14 @@
     "source": "ASCRS Clinical Practice Guidelines - Surveillance and Survivorship Care 2021",
     "evidence": "I级专家共识",
     "domain": "造口·随访·筛查"
+  },
+  {
+    "head": "肛管鳞状细胞癌",
+    "relation": "诊疗方案",
+    "tail": "FIGURE 1. Preferred Reporting Items for Systematic Reviews and Meta-analyses lit",
+    "source": "ASCRS Clinical Practice Guidelines - Surveillance and Survivorship Care 2021",
+    "evidence": "I级专家共识",
+    "domain": "肛管癌"
   },
   {
     "head": "肛管鳞状细胞癌",
@@ -20690,6 +18560,14 @@
     "domain": "系统治疗"
   },
   {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "of recommendations and quality of evidence in clinical guide-",
+    "source": "ASCRS Clinical Practice Guidelines - Surveillance and Survivorship Care 2021",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
     "head": "结直肠癌T4期",
     "relation": "分期管理",
     "tail": "sion in T4 rectal cancer. Colorectal Dis. 2013;15:e665–e671. Sussman JJ. The relationship of lymph node dissection and",
@@ -20949,6 +18827,30 @@
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
     "tail": "TABLE 1. The Grades of Recommendation, Assessment, Development, and Evaluation System Grading Recommendations",
+    "source": "ASCRS Clinical Practice Guidelines - Use of Bowel Preparation in Elective Colon and Rectal Surgery 2019",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1A Strong recommendation, Benefits clearly outweigh risk RCTs without important Strong recommendation, can apply to",
+    "source": "ASCRS Clinical Practice Guidelines - Use of Bowel Preparation in Elective Colon and Rectal Surgery 2019",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1B Strong recommendation, Benefits clearly outweigh risk RCTs with important limitations Strong recommendation, can apply to",
+    "source": "ASCRS Clinical Practice Guidelines - Use of Bowel Preparation in Elective Colon and Rectal Surgery 2019",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1C Strong recommendation, Benefits clearly outweigh risk Observational studies or case Strong recommendation but may",
     "source": "ASCRS Clinical Practice Guidelines - Use of Bowel Preparation in Elective Colon and Rectal Surgery 2019",
     "evidence": "I级专家共识",
     "domain": "系统治疗"
@@ -24005,6 +21907,38 @@
     "head": "结直肠癌",
     "relation": "ASCRS推荐",
     "tail": "should be identified by history, physical examination,",
+    "source": "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Cancers 2018 (Revised)",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1A Strong recommendation, Benefits clearly outweigh risk RCTs without important Strong recommendation, can",
+    "source": "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Cancers 2018 (Revised)",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "1C Strong recommendation, Benefits clearly outweigh risk Observational studies or case Strong recommendation but",
+    "source": "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Cancers 2018 (Revised)",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "2A Weak recommendation, Benefits closely balanced with RCTs without important Weak recommendation, best",
+    "source": "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Cancers 2018 (Revised)",
+    "evidence": "I级专家共识",
+    "domain": "系统治疗"
+  },
+  {
+    "head": "结直肠癌",
+    "relation": "ASCRS推荐",
+    "tail": "2C Weak recommendation, Uncertainty in the estimates of Observational studies or case Very weak recommendations;",
     "source": "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Cancers 2018 (Revised)",
     "evidence": "I级专家共识",
     "domain": "系统治疗"

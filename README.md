@@ -1,11 +1,28 @@
 # 结直肠癌通用知识库 (Colorectal Cancer Knowledge Base)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![GitHub stars](https://img.shields.io/github/stars/wangxiaodong/colorectal-cancer-kb.svg)](https://github.com/wangxiaodong/colorectal-cancer-kb)
-[![GitHub forks](https://img.shields.io/github/forks/wangxiaodong/colorectal-cancer-kb.svg)](https://github.com/wangxiaodong/colorectal-cancer-kb/network)
-[![Last Commit](https://img.shields.io/github/last-commit/wangxiaodong/colorectal-cancer-kb.svg)](https://github.com/wangxiaodong/colorectal-cancer-kb/commits)
+[![GitHub stars](https://img.shields.io/github/stars/lockwang127/colorectal-cancer-kb.svg)](https://github.com/lockwang127/colorectal-cancer-kb)
+[![GitHub forks](https://img.shields.io/github/forks/lockwang127/colorectal-cancer-kb.svg)](https://github.com/lockwang127/colorectal-cancer-kb/network)
+[![Last Commit](https://img.shields.io/github/last-commit/lockwang127/colorectal-cancer-kb.svg)](https://github.com/lockwang127/colorectal-cancer-kb/commits)
+[![Knowledge Triplets](https://img.shields.io/badge/Knowledge-557%20Triplets-green.svg)](data/knowledge-graph/relations.json)
 
 🏥 一个结构化、开源的结直肠癌医学知识库，支持临床决策、科研查询与AI应用。
+
+---
+
+## 🎯 最新更新 (2026-05-06)
+
+### ✅ NCCN 2024指南已入库
+- 结肠癌 NCCN Guidelines 2024 (Version 2.2026)
+- 直肠癌 NCCN Guidelines 2024 (Version 2.2026)  
+- 肛管癌 NCCN Guidelines 2024
+- **知识图谱扩展至 557 条三元组**
+
+### 🚀 公众版平台规划中
+- 邮箱注册即可使用的AI问答助手
+- 支持自然语言获取专业医学信息
+- 团队可动态投喂新知识
+- [查看架构设计](docs/PUBLIC_PLATFORM_DESIGN.md)
 
 ---
 
@@ -126,10 +143,20 @@ python scripts/validate_data.py
 
 | 数据类型 | 当前条目 | 目标条目 | 质量等级 |
 |----------|----------|----------|----------|
-| 指南摘要 | 0（初始化中） | 50+ | 高 |
-| 知识三元组 | 0（初始化中） | 2000+ | 中高 |
-| 药物知识 | 0（初始化中） | 100+ | 高 |
-| 临床试验 | 0（初始化中） | 300+ | 中 |
+| 指南摘要 | 3 (CSCO/NCCN/ESMO) | 50+ | 高 |
+| **知识三元组** | **557** | 2000+ | 中高 |
+| 药物知识 | 20+ (含靶向/免疫) | 100+ | 高 |
+| 临床试验 | 30+ | 300+ | 中 |
+
+### 📖 知识来源覆盖
+
+| 指南/来源 | 条目数 | 占比 |
+|-----------|--------|------|
+| CSCO 2024 结直肠癌诊疗指南 | 180 | 32.3% |
+| NCCN Guidelines 2024 (Colon/Rectal/Anal) | 57 | 10.2% |
+| AJCC Cancer Staging Manual 8th | 33 | 5.9% |
+| ESMO Guidelines | 23 | 4.1% |
+| 其他专家共识/临床研究 | 264 | 47.4% |
 
 ---
 

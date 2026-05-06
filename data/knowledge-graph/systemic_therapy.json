@@ -1,0 +1,648 @@
+[
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线治疗",
+    "object": "FOLFOX方案（5-FU+奥沙利铂+亚叶酸钙）",
+    "conditions": {
+      "MSI状态": "MSS",
+      "分子分型": "无特殊靶点"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线治疗",
+    "object": "FOLFIRI方案（5-FU+伊立替康+亚叶酸钙）",
+    "conditions": {
+      "MSI状态": "MSS",
+      "分子分型": "无特殊靶点"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线治疗",
+    "object": "FOLFOXIRI方案（三药联合）",
+    "conditions": {
+      "MSI状态": "MSS",
+      "目标": "NED转化"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "靶向药物联合",
+    "object": "贝伐珠单抗",
+    "conditions": {
+      "类型": "抗VEGF单克隆抗体"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "靶向药物联合",
+    "object": "西妥昔单抗",
+    "conditions": {
+      "基因": "RAS/BRAF野生型"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "靶向药物联合",
+    "object": "帕尼单抗",
+    "conditions": {
+      "基因": "RAS/BRAF野生型"
+    },
+    "evidence_level": "I级",
+    "source": "NCCN Guidelines Colon Cancer 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线靶向+化疗",
+    "object": "FOLFOX+贝伐珠单抗",
+    "conditions": {
+      "基因": "全人群适用"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线靶向+化疗",
+    "object": "FOLFIRI+贝伐珠单抗",
+    "conditions": {
+      "基因": "全人群适用"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线靶向+化疗",
+    "object": "FOLFIRI+西妥昔单抗",
+    "conditions": {
+      "基因": "RAS/BRAF野生型"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "转移性结直肠癌",
+    "predicate": "一线靶向+化疗",
+    "object": "FOLFOX+西妥昔单抗",
+    "conditions": {
+      "基因": "RAS/BRAF野生型"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "MSI-H/dMMR转移性结直肠癌",
+    "predicate": "一线治疗",
+    "object": "帕博利珠单抗",
+    "conditions": {
+      "MSI状态": "MSI-H/dMMR",
+      "线数": "一线"
+    },
+    "evidence_level": "I级",
+    "source": "KEYNOTE-177研究/CSCO 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "MSI-H/dMMR转移性结直肠癌",
+    "predicate": "一线治疗",
+    "object": "纳武利尤单抗",
+    "conditions": {
+      "MSI状态": "MSI-H/dMMR",
+      "线数": "一线"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "KRAS G12C突变结直肠癌",
+    "predicate": "可用药物",
+    "object": "Sotorasib",
+    "conditions": {
+      "突变": "KRAS G12C",
+      "线数": "后线"
+    },
+    "evidence_level": "II级",
+    "source": "NCCN Guidelines Colon Cancer 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.88
+  },
+  {
+    "subject": "KRAS G12C突变结直肠癌",
+    "predicate": "可用药物",
+    "object": "Adagrasib",
+    "conditions": {
+      "突变": "KRAS G12C",
+      "线数": "后线"
+    },
+    "evidence_level": "II级",
+    "source": "NCCN Guidelines Colon Cancer 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.88
+  },
+  {
+    "subject": "BRAF V600E突变结直肠癌",
+    "predicate": "靶向治疗",
+    "object": "Encorafenib+Binimetinib+西妥昔单抗",
+    "conditions": {
+      "突变": "BRAF V600E",
+      "线数": "二线"
+    },
+    "evidence_level": "I级",
+    "source": "BEACON CRC研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "抗HER2治疗",
+    "object": "曲妥珠单抗+帕妥珠单抗",
+    "conditions": {
+      "基因": "HER2扩增",
+      "线数": "后线"
+    },
+    "evidence_level": "II级",
+    "source": "MOUNTAINEER研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.9
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "抗HER2治疗",
+    "object": "T-DXd（德曲妥珠单抗）",
+    "conditions": {
+      "基因": "HER2阳性",
+      "线数": "后线"
+    },
+    "evidence_level": "II级",
+    "source": "DESTINY-CRC01研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.88
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "三线治疗",
+    "object": "呋喹替尼",
+    "conditions": {
+      "线数": "三线",
+      "靶点": "VEGFR1/2/3"
+    },
+    "evidence_level": "I级",
+    "source": "FRESCO研究/CSCO 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "三线治疗",
+    "object": "瑞戈非尼",
+    "conditions": {
+      "线数": "三线",
+      "靶点": "多靶点TKI"
+    },
+    "evidence_level": "I级",
+    "source": "CORRECT研究/CSCO 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "三线治疗",
+    "object": "TAS-102（曲氟尿苷替匹嘧啶）",
+    "conditions": {
+      "线数": "三线"
+    },
+    "evidence_level": "I级",
+    "source": "RECOURSE研究/CSCO 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "II期结直肠癌",
+    "predicate": "术后辅助化疗",
+    "object": "观察（低危II期）",
+    "conditions": {
+      "分期": "II期",
+      "风险": "无高危因素"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "II期结直肠癌",
+    "predicate": "术后辅助化疗",
+    "object": "单药卡培他滨（高危II期）",
+    "conditions": {
+      "分期": "II期",
+      "风险": "伴高危因素"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "III期结直肠癌",
+    "predicate": "术后辅助化疗",
+    "object": "CAPOX方案（卡培他滨+奥沙利铂）",
+    "conditions": {
+      "分期": "III期",
+      "时长": "3-6个月"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.98
+  },
+  {
+    "subject": "III期结直肠癌",
+    "predicate": "术后辅助化疗",
+    "object": "FOLFOX方案",
+    "conditions": {
+      "分期": "III期",
+      "时长": "3-6个月"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.98
+  },
+  {
+    "subject": "III期结直肠癌",
+    "predicate": "术后辅助化疗",
+    "object": "单药卡培他滨（不耐受联合）",
+    "conditions": {
+      "分期": "III期",
+      "耐受性": "不耐受奥沙利铂"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "IIIA期直肠癌",
+    "predicate": "新辅助放化疗",
+    "object": "卡培他滨+长程放疗",
+    "conditions": {
+      "分期": "cT3-4 N+",
+      "方案": "CRT同步"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "直肠癌",
+    "predicate": "TNT新辅助治疗",
+    "object": "诱导化疗+同步放化疗+巩固化疗",
+    "conditions": {
+      "模式": "全程新辅助治疗"
+    },
+    "evidence_level": "I级",
+    "source": "NCCN Guidelines Rectal Cancer 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "局部进展期直肠癌",
+    "predicate": "TNT后pCR率",
+    "object": "约30-38%",
+    "conditions": {
+      "模式": "TNT模式"
+    },
+    "evidence_level": "I级",
+    "source": "PRODIGE 23研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.92
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "辅助化疗时长",
+    "object": "III期高危：6个月FOLFOX",
+    "conditions": {
+      "分期": "III期",
+      "风险": "高危"
+    },
+    "evidence_level": "I级",
+    "source": "IDEA研究/CSCO 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "维持治疗",
+    "object": "5-FU/卡培他滨+贝伐珠单抗",
+    "conditions": {
+      "策略": "诱导后维持"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "HER2扩增结直肠癌",
+    "predicate": "后线靶向",
+    "object": "T-DXd",
+    "conditions": {
+      "基因": "HER2 IHC3+ 或 2+/FISH+",
+      "线数": ">=三线"
+    },
+    "evidence_level": "II级",
+    "source": "DESTINY-CRC01研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.9
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "靶向药物禁忌",
+    "object": "RAS/BRAF突变禁用EGFR单抗",
+    "conditions": {
+      "基因": "KRAS/NRAS/BRAF突变"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.98
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "化疗毒性",
+    "object": "奥沙利铂神经毒性（寒冷诱发）",
+    "conditions": {
+      "毒性": "周围神经病变"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "化疗毒性",
+    "object": "伊立替康延迟性腹泻",
+    "conditions": {
+      "毒性": "腹泻",
+      "管理": "洛哌丁胺"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "贝伐珠单抗",
+    "predicate": "使用注意",
+    "object": "禁用于有出血风险者",
+    "conditions": {
+      "禁忌": "活动性出血、咯血"
+    },
+    "evidence_level": "I级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "5-FU/卡培他滨",
+    "predicate": "用药前检测",
+    "object": "DPD酶活性或DPYD基因",
+    "conditions": {
+      "检测": "DPD缺乏筛查"
+    },
+    "evidence_level": "II级",
+    "source": "ESMO指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.92
+  },
+  {
+    "subject": "MSI-H/dMMR结直肠癌",
+    "predicate": "新辅助免疫治疗",
+    "object": "纳武利尤单抗+伊匹木单抗",
+    "conditions": {
+      "分期": "局部进展期",
+      "MSI状态": "MSI-H"
+    },
+    "evidence_level": "II级",
+    "source": "NICHE研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.88
+  },
+  {
+    "subject": "结直肠癌腹膜转移",
+    "predicate": "治疗策略",
+    "object": "CRS减瘤术+HIPEC（争议）",
+    "conditions": {
+      "转移": "腹膜转移"
+    },
+    "evidence_level": "II级",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.82
+  },
+  {
+    "subject": "FOLFOX方案",
+    "predicate": "剂量",
+    "object": "奥沙利铂85mg/m2 IV d1 + 5-FU 400mg/m2 IV bolus d1 + 5-FU 2400mg/m2 CIV 46h",
+    "conditions": {
+      "周期": "每2周重复"
+    },
+    "evidence_level": "专家共识",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "FOLFIRI方案",
+    "predicate": "剂量",
+    "object": "伊立替康180mg/m2 IV d1 + 5-FU 400mg/m2 IV bolus + 5-FU 2400mg/m2 CIV 46h",
+    "conditions": {
+      "周期": "每2周重复"
+    },
+    "evidence_level": "专家共识",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "CAPOX方案",
+    "predicate": "剂量",
+    "object": "奥沙利铂130mg/m2 IV d1 + 卡培他滨1000mg/m2 bid d1-14",
+    "conditions": {
+      "周期": "每3周重复"
+    },
+    "evidence_level": "专家共识",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "西妥昔单抗",
+    "predicate": "剂量",
+    "object": "首剂400mg/m2 IV，维持250mg/m2 IV qw",
+    "conditions": {
+      "给药": "每周方案"
+    },
+    "evidence_level": "专家共识",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "帕尼单抗",
+    "predicate": "剂量",
+    "object": "6mg/kg IV q2w 或 初次400mg/m2后250mg/m2 qw",
+    "conditions": {
+      "给药": "每2周方案"
+    },
+    "evidence_level": "专家共识",
+    "source": "NCCN Guidelines Colon Cancer 2024",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "贝伐珠单抗",
+    "predicate": "剂量",
+    "object": "5mg/kg q2w 或 7.5mg/kg q3w",
+    "conditions": {
+      "给药": "联合化疗"
+    },
+    "evidence_level": "专家共识",
+    "source": "CSCO 2024 结直肠癌诊疗指南",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  },
+  {
+    "subject": "呋喹替尼",
+    "predicate": "剂量",
+    "object": "5mg qd d1-21，每28天为一周期",
+    "conditions": {
+      "线数": "三线"
+    },
+    "evidence_level": "专家共识",
+    "source": "FRESCO研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "瑞戈非尼",
+    "predicate": "剂量",
+    "object": "160mg qd d1-21，每28天为一周期",
+    "conditions": {
+      "线数": "三线"
+    },
+    "evidence_level": "专家共识",
+    "source": "CORRECT研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.95
+  },
+  {
+    "subject": "局部进展期结肠癌",
+    "predicate": "新辅助化疗",
+    "object": "FOLFOX/CAPOX（临床试验阶段）",
+    "conditions": {
+      "分期": "cT4b或初始不可切除"
+    },
+    "evidence_level": "II级",
+    "source": "FOxtrot研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.88
+  },
+  {
+    "subject": "结直肠癌",
+    "predicate": "总生存期（中位）",
+    "object": "MSI-H一线免疫治疗：未达到（NR）",
+    "conditions": {
+      "治疗": "帕博利珠单抗一线"
+    },
+    "evidence_level": "I级",
+    "source": "KEYNOTE-177研究",
+    "contributor": "汪晓东",
+    "date_added": "2026-05-06",
+    "confidence": 0.97
+  }
+]
