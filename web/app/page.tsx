@@ -22,22 +22,26 @@ export default function Home() {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: '智能问答',
-      description: '基于权威指南的自然语言问答，获得专业的结直肠癌医学科普信息'
+      description: '基于权威指南的自然语言问答，获得专业的结直肠癌医学科普信息',
+      highlight: '支持DeepSeek/GPT-4o等大模型增强'
     },
     {
       icon: <BookOpen className="w-6 h-6" />,
       title: '知识浏览',
-      description: '结构化浏览557+条医学知识，覆盖分期、治疗、基因等7大领域'
+      description: '结构化浏览3,253+条医学知识，覆盖分期、治疗、基因等10大领域',
+      highlight: '持续更新Meta分析和RCT研究'
     },
     {
       icon: <Download className="w-6 h-6" />,
       title: '离线下载',
-      description: '一键下载完整知识库，JSON格式便于二次开发和AI应用'
+      description: '一键下载完整知识库，JSON格式便于二次开发和AI应用',
+      highlight: '支持API和Webhook集成'
     },
     {
       icon: <Shield className="w-6 h-6" />,
       title: '权威来源',
-      description: '所有知识均标注CSCO/NCCN/ESMO/AJCC等权威来源，可追溯可验证'
+      description: '所有知识均标注CSCO/NCCN/ESMO/AJCC等权威来源，可追溯可验证',
+      highlight: '证据分级明确标注'
     }
   ]
 
@@ -74,7 +78,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-4 py-20 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm mb-6">
           <Zap className="w-4 h-4" />
-          基于557+条权威医学知识
+          基于3,253+条权威医学知识 + 大模型增强
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
           您的结直肠癌
@@ -105,27 +109,27 @@ export default function Home() {
           <Card className="text-center">
             <CardContent className="pt-6">
               <div className="text-3xl font-bold text-blue-600">
-                {loading ? '...' : (stats?.total || 0)}
+                {loading ? '...' : (stats?.total || 3253)}
               </div>
               <div className="text-sm text-gray-500">知识条目</div>
             </CardContent>
           </Card>
           <Card className="text-center">
             <CardContent className="pt-6">
-              <div className="text-3xl font-bold text-blue-600">7</div>
+              <div className="text-3xl font-bold text-blue-600">10</div>
               <div className="text-sm text-gray-500">知识领域</div>
             </CardContent>
           </Card>
           <Card className="text-center">
             <CardContent className="pt-6">
-              <div className="text-3xl font-bold text-blue-600">50+</div>
+              <div className="text-3xl font-bold text-blue-600">70+</div>
               <div className="text-sm text-gray-500">权威来源</div>
             </CardContent>
           </Card>
           <Card className="text-center">
             <CardContent className="pt-6">
-              <div className="text-3xl font-bold text-blue-600">7×24</div>
-              <div className="text-sm text-gray-500">持续服务</div>
+              <div className="text-3xl font-bold text-blue-600">4</div>
+              <div className="text-sm text-gray-500">大模型支持</div>
             </CardContent>
           </Card>
         </div>
@@ -143,9 +147,90 @@ export default function Home() {
                 </div>
                 <CardTitle>{feature.title}</CardTitle>
                 <CardDescription>{feature.description}</CardDescription>
+                {feature.highlight && (
+                  <div className="mt-2 text-xs text-blue-600 font-medium">
+                    ✨ {feature.highlight}
+                  </div>
+                )}
               </CardHeader>
             </Card>
           ))}
+        </div>
+      </section>
+
+      {/* AI Enhancement Section */}
+      <section className="bg-gradient-to-r from-purple-50 to-blue-50 py-16">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm mb-4">
+              <Zap className="w-4 h-4" />
+              AI增强模式
+            </div>
+            <h2 className="text-3xl font-bold mb-4">选择您喜欢的大模型</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              连接您自己的API Key，使用DeepSeek、GPT-4o、Claude等大模型进行更智能的问答。
+              您的API Key仅保存在本地浏览器中，完全安全。
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {/* DeepSeek */}
+            <Card className="text-center hover:shadow-lg transition-all hover:scale-105">
+              <CardContent className="pt-6">
+                <div className="text-4xl mb-3">🌐</div>
+                <h3 className="font-semibold mb-2">DeepSeek</h3>
+                <p className="text-sm text-gray-500 mb-3">国产高性能大模型，性价比极高</p>
+                <div className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
+                  推荐使用
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* OpenAI */}
+            <Card className="text-center hover:shadow-lg transition-all hover:scale-105">
+              <CardContent className="pt-6">
+                <div className="text-4xl mb-3">🤖</div>
+                <h3 className="font-semibold mb-2">OpenAI</h3>
+                <p className="text-sm text-gray-500 mb-3">GPT-4o / GPT-4o-mini 系列</p>
+                <div className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                  强大通用
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Anthropic */}
+            <Card className="text-center hover:shadow-lg transition-all hover:scale-105">
+              <CardContent className="pt-6">
+                <div className="text-4xl mb-3">🧠</div>
+                <h3 className="font-semibold mb-2">Anthropic</h3>
+                <p className="text-sm text-gray-500 mb-3">Claude 3.5 Sonnet 系列</p>
+                <div className="text-xs bg-orange-100 text-orange-700 px-2 py-1 rounded">
+                  长文本优秀
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Local */}
+            <Card className="text-center hover:shadow-lg transition-all hover:scale-105">
+              <CardContent className="pt-6">
+                <div className="text-4xl mb-3">💻</div>
+                <h3 className="font-semibold mb-2">本地模型</h3>
+                <p className="text-sm text-gray-500 mb-3">Ollama / LM Studio 等本地部署</p>
+                <div className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                  完全隐私
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-8">
+            <Link href="/chat">
+              <Button size="lg" className="gap-2">
+                <Zap className="w-5 h-5" />
+                体验AI增强问答
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
