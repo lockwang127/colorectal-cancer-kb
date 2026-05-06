@@ -25712,5 +25712,635 @@
     "source": "Nature Scientific Reports. TaTME in rectal cancer. 2023. PMC4424788",
     "evidence": "II级证据",
     "domain": "围手术期管理"
+  },
+  {
+    "head": "微创全直肠系膜切除(MiTME)",
+    "relation": "定义",
+    "tail": "包括机器人TME(RaTME)和腹腔镜TME(LaTME)的微创全直肠系膜切除术",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "经肛全直肠系膜切除(TaTME)",
+    "relation": "定义",
+    "tail": "自下而上进行直肠系膜游离的经肛微创手术",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "Meta分析规模",
+    "tail": "39项研究，11,010例患者(MiTME 6,268例 vs TaTME 4,742例)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "手术时间比较",
+    "tail": "无显著差异(SMD=-0.14, 95%CI -0.31~0.33, P=0.116)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "估计失血量比较",
+    "tail": "无显著差异(SMD=0.05, 95%CI -0.05~0.14, P=0.338)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "术后住院时间比较",
+    "tail": "无显著差异(SMD=0.08, 95%CI -0.07~0.22, P=0.308)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "总体并发症比较",
+    "tail": "无显著差异(RR=0.98, 95%CI 0.88~1.08, P=0.644)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "吻合口漏发生率比较",
+    "tail": "MiTME组显著更低(SMD=-0.38, P<0.0001)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "环周切缘阳性率比较",
+    "tail": "无显著差异(RR=1.10, 95%CI 0.91~1.34, P=0.322)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "远端切缘阳性率比较",
+    "tail": "无显著差异(RR=1.49, 95%CI 0.73~3.05, P=0.272)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "淋巴结获取数比较",
+    "tail": "无显著差异(SMD=0.06, 95%CI -0.04~0.17, P=0.249)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "2年无病生存率比较",
+    "tail": "无显著差异(RR=0.99, 95%CI 0.88~1.11, P=0.816)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "2年总生存率比较",
+    "tail": "无显著差异(RR=1.00, 95%CI 0.90~1.11, P=0.969)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "远处转移率比较",
+    "tail": "无显著差异(RR=0.47, 95%CI 0.17~1.29, P=0.143)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "局部复发率比较",
+    "tail": "无显著差异(RR=1.49, 95%CI 0.75~2.97, P=0.250)",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "MiTME vs TaTME",
+    "relation": "主要结论",
+    "tail": "两种术式安全性与疗效相当；唯一显著差异是MiTME吻合口漏发生率更低",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠癌肝转移",
+    "relation": "同时切除手术RCT规模",
+    "tail": "171例患者(机器人组86例 vs 开放手术组85例)，NCT02642978",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "定义",
+    "tail": "机器人系统辅助直肠癌原发灶与肝转移灶一次性切除",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "30天并发症率",
+    "tail": "31.4% vs 开放手术57.6% (P=0.014)，降低26.2个百分点",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "术中出血量",
+    "tail": "125.5ml vs 开放手术211.6ml，减少约41% (P<0.001)",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "肠道功能恢复时间",
+    "tail": "63.7小时 vs 开放手术93.8小时，缩短约30小时 (P<0.001)",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "住院时间",
+    "tail": "8.0天 vs 开放手术10.7天，缩短约2.7天 (P<0.001)",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "手术死亡率",
+    "tail": "两组均为0%，无手术相关死亡",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "3年无病生存率",
+    "tail": "39.5% vs 开放手术35.3% (P=0.739)，无显著差异",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "3年总生存率",
+    "tail": "76.7% vs 开放手术72.9% (P=0.712)，无显著差异",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "功能保护优势",
+    "tail": "术后3个月膀胱功能和性功能恢复均优于开放手术",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "机器人同时切除术",
+    "relation": "核心结论",
+    "tail": "机器人同时切除术显著减少并发症和出血、加速恢复，同时保证肿瘤学疗效",
+    "source": "International Journal of Surgery 2023 - 机器人同时切除RCT",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "吲哚菁绿(ICG)荧光血管造影",
+    "relation": "定义",
+    "tail": "术中评估肠道吻合部位血流灌注的荧光成像技术",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "Meta分析规模",
+    "tail": "10项RCT，3,772例左半结肠切除术患者",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "降低总体吻合口漏",
+    "tail": "RR=0.62, 95%CI 0.53~0.73 (P<0.001)，假设基线漏率10%则每27例可预防1例",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "降低临床显著吻合口漏",
+    "tail": "ISGRC Grade B/C漏: RR=0.66, 95%CI 0.51~0.85",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "对手术时间的影响",
+    "tail": "不延长手术时间",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "对术后并发症的影响",
+    "tail": "RR=0.88, 95%CI 0.73~1.05，有减少趋势",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "ICG荧光血管造影",
+    "relation": "临床应用建议",
+    "tail": "应作为左半结肠切除术的重要辅助手段",
+    "source": "Colorectal Disease 2026 - ICG荧光造影Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.98
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "Meta分析规模",
+    "tail": "13项研究(3项RCT+10项队列)，1,402例患者(TLE 570例 vs TME 832例)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "队列研究局部复发率",
+    "tail": "TLE组显著更高: RR=1.93, 95%CI 1.18~3.14 (P=0.008)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "队列研究5年无局部复发生存率",
+    "tail": "TLE组显著更低: HR=2.79, 95%CI 1.04~7.50 (P=0.04)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "RCT局部复发率",
+    "tail": "无显著差异: RR=1.46, 95%CI 0.63~3.37 (P=0.38)，可能检验效能不足",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "队列研究5年总生存率",
+    "tail": "无显著差异: HR=0.95, 95%CI 0.51~1.78 (P=0.88)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "队列研究5年无病生存率",
+    "tail": "无显著差异: HR=1.31, 95%CI 0.73~2.34 (P=0.37)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "RCT 5年总生存率",
+    "tail": "无显著差异: HR=1.07, 95%CI 0.50~2.27 (P=0.87)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE) vs TME",
+    "relation": "RCT 5年无病生存率",
+    "tail": "无显著差异: HR=1.10, 95%CI 0.65~1.85 (P=0.72)",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "适应证(2022 NCCN)",
+    "tail": "T1N0分期，肿瘤<直肠周径30%，直径<3cm，切缘>3mm，中高分化，距肛缘<8cm，无淋巴结转移",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "ypT0-T1患者局部复发率",
+    "tail": "2.8%~4.7%，生存结局与TME无显著差异",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "补救手术",
+    "tail": "不良病理特征者推荐补救性TME，与初次TME相比发病率、局部复发率和死亡率相似",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "临床完全缓解(cCR)评估",
+    "tail": "联合检查(MRI+内镜)预测准确率84.55%~98%",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "TME术后功能障碍",
+    "relation": "主要表现",
+    "tail": "吻合口漏、低位前切除综合征(LARS)、男性泌尿生殖功能障碍、永久性造口",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "II级",
+    "domain": "外科手术",
+    "confidence": 0.9
+  },
+  {
+    "head": "低位前切除综合征(LARS)",
+    "relation": "主要症状",
+    "tail": "排便频率增加、排便急迫、便失禁",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "II级",
+    "domain": "外科手术",
+    "confidence": 0.9
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "功能优势",
+    "tail": "利用自然腔道操作，创伤更小，并发症发生率更低，术后生活质量更好",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "局部切除(TLE)",
+    "relation": "主要结论",
+    "tail": "新辅助治疗后TLE与TME在5年生存率方面相当；局部复发需关注；适合优先考虑生活质量的患者",
+    "source": "PLOS ONE 2023 - TLE vs TME长期预后Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "抗生素预防背景",
+    "tail": "尽管进行预防，仍有10-25%患者发生手术部位感染(SSI)",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "比较的抗生素类别",
+    "tail": "第一/二/三代头孢菌素、β-内酰胺/β-内酰胺酶抑制剂、氟喹诺酮类、氨基糖苷类等",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "Meta分析设计",
+    "tail": "网状Meta分析，频率学随机效应模型，GRADE证据质量评估",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "主要结局指标",
+    "tail": "30天内手术部位感染发生率",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "次要结局指标",
+    "tail": "住院时长、30天死亡率、治疗相关不良事件",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "结直肠手术 SSI预防",
+    "relation": "研究注册",
+    "tail": "PROSPERO CRD42023434544, McMaster大学主导",
+    "source": "Systematic Reviews 2024 - 抗生素预防SSI网状Meta分析方案",
+    "evidence": "I级",
+    "domain": "围手术期管理",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌新辅助治疗",
+    "relation": "完全缓解定义",
+    "tail": "临床完全缓解(cCR): 联合MRI+内镜检查评估肿瘤完全消退",
+    "source": "JAMA Network Open 2025 - 直肠癌pCR系统综述",
+    "evidence": "I级",
+    "domain": "系统治疗",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌新辅助治疗",
+    "relation": "完全病理缓解(pCR)率",
+    "tail": "15%~25%的局部进展期直肠癌患者可达pCR",
+    "source": "JAMA Network Open 2025 - 直肠癌pCR系统综述",
+    "evidence": "I级",
+    "domain": "系统治疗",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌新辅助治疗",
+    "relation": "完全缓解与生存获益",
+    "tail": "pCR与5年总生存率和无病生存率改善相关",
+    "source": "JAMA Network Open 2025 - 直肠癌pCR系统综述",
+    "evidence": "I级",
+    "domain": "系统治疗",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌cCR",
+    "relation": "评估方法",
+    "tail": "高分辨率MRI(DWI序列)+直肠镜+直肠指诊联合评估",
+    "source": "Frontiers Oncology 2026 - 直肠癌cCR预测综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.9
+  },
+  {
+    "head": "直肠癌cCR",
+    "relation": "评估准确率",
+    "tail": "联合检查方法预测准确率84.55%~98%",
+    "source": "Frontiers Oncology 2026 - 直肠癌cCR预测综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.9
+  },
+  {
+    "head": "直肠癌cCR",
+    "relation": "watch-and-wait策略",
+    "tail": "达到cCR后选择非手术治疗密切随访，可避免TME手术带来的功能障碍",
+    "source": "Frontiers Oncology 2026 - 直肠癌watch-and-wait综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.88
+  },
+  {
+    "head": "直肠癌watch-and-wait",
+    "relation": "核心优势",
+    "tail": "器官保存、避免TME术后功能障碍、提高生活质量",
+    "source": "Frontiers Oncology 2026 - 直肠癌watch-and-wait综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.88
+  },
+  {
+    "head": "直肠癌watch-and-wait",
+    "relation": "风险",
+    "tail": "局部再生长风险，需要严格随访监测体系",
+    "source": "Frontiers Oncology 2026 - 直肠癌watch-and-wait综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.88
+  },
+  {
+    "head": "直肠癌新辅助治疗",
+    "relation": "完全缓解后补救手术",
+    "tail": "局部复发或肿瘤再生长时行补救性TME，与初次TME相比疗效相似",
+    "source": "Frontiers Oncology 2026 - 直肠癌watch-and-wait综述",
+    "evidence": "II级",
+    "domain": "系统治疗",
+    "confidence": 0.88
+  },
+  {
+    "head": "结直肠手术",
+    "relation": "功能结局评估",
+    "tail": "开腹vs腹腔镜vs机器人vs taTME的尿失禁、性功能、排便功能、生活质量比较",
+    "source": "Surgical Endoscopy 2024 - 功能结局Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "TME功能结局",
+    "relation": "各手术方式比较结论",
+    "tail": "开腹vs腹腔镜vs机器人vs taTME在尿失禁、性功能、排便功能和生活质量方面无显著差异",
+    "source": "Surgical Endoscopy 2024 - 功能结局Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌TME质量",
+    "relation": "评估指标",
+    "tail": "TME完整切除率、环周切缘(CRM)、远端切缘(DRM)、淋巴结获取数",
+    "source": "Frontiers in Oncology 2023 - MiTME vs TaTME Meta分析",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌TME质量",
+    "relation": "预后影响",
+    "tail": "优质TME是独立预后因素，与改善总生存和无病生存相关",
+    "source": "Nature Scientific Reports 2025 - TME质量预后研究",
+    "evidence": "I级",
+    "domain": "外科手术",
+    "confidence": 0.95
+  },
+  {
+    "head": "直肠癌TME质量",
+    "relation": "影响因素",
+    "tail": "手术入路选择、术者经验、新辅助治疗反应",
+    "source": "Nature Scientific Reports 2025 - TME质量预后研究",
+    "evidence": "II级",
+    "domain": "外科手术",
+    "confidence": 0.9
   }
 ]
