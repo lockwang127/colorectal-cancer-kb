@@ -12,7 +12,7 @@
 
 ## 🎯 最新更新 (2026-05-07)
 
-### ✅ Phase 3 临床研究知识扩展完成 — 知识库扩充至 3738 条
+### ✅ 临床研究知识扩展完成 — 知识库扩充至 3738 条
 
 **新增内容批次**：
 
@@ -173,12 +173,6 @@ python scripts/build_kb.py   # 重新构建知识库
 - **Obsidian兼容**：Markdown格式可直接导入Obsidian
 
 ---
-
-## 📧 联系我们
-
-- **项目负责人**：汪晓东（四川大学华西医院胃肠外科）
-- **Email**：[请联系通过GitHub Issue](https://github.com/lockwang127/colorectal-cancer-kb/issues)
-- **机构**：四川大学华西医院
 
 ---
 

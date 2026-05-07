@@ -181,12 +181,6 @@ date_added: "2026-05-06"
 
 ---
 
-## 📧 联系方式
-
-如有疑问，请：
-- 创建 [Issue](https://github.com/wangxiaodong/colorectal-cancer-kb/issues)
-- 联系维护者：汪晓东（华西医院）
-
 ---
 
 **再次感谢您的贡献！🙏**
