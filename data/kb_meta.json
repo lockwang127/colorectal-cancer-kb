@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "update_date": "2026-05-07",
+  "total_entries": 3738,
+  "total_duplicates_removed": 3167,
+  "source_files": {
+    "biomarkers.json": {
+      "added": 42,
+      "skipped": 0
+    },
+    "extra_batch.json": {
+      "added": 144,
+      "skipped": 0
+    },
+    "extra_batch2.json": {
+      "added": 53,
+      "skipped": 6
+    },
+    "lars_complications.json": {
+      "added": 36,
+      "skipped": 0
+    },
+    "literature_batch_20260506.json": {
+      "added": 70,
+      "skipped": 0
+    },
+    "literature_batch_cms_cris_molecular_subtypes.json": {
+      "added": 46,
+      "skipped": 0
+    },
+    "literature_batch_ctDNA_MRD_TNT.json": {
+      "added": 33,
+      "skipped": 0
+    },
+    "literature_batch_epidemiology_screening.json": {
+      "added": 24,
+      "skipped": 0
+    },
+    "literature_batch_hereditary_epidemiology.json": {
+      "added": 37,
+      "skipped": 0
+    },
+    "literature_batch_immunotherapy.json": {
+      "added": 51,
+      "skipped": 0
+    },
+    "literature_batch_supportive_care.json": {
+      "added": 32,
+      "skipped": 0
+    },
+    "ostomy_screening.json": {
+      "added": 38,
+      "skipped": 0
+    },
+    "pathology_nutrition_outcomes.json": {
+      "added": 50,
+      "skipped": 0
+    },
+    "relations.json": {
+      "added": 2972,
+      "skipped": 281
+    },
+    "relations_ascrs.json": {
+      "added": 23,
+      "skipped": 2841
+    },
+    "staging.json": {
+      "added": 30,
+      "skipped": 9
+    },
+    "surgery.json": {
+      "added": 30,
+      "skipped": 9
+    },
+    "systemic_therapy.json": {
+      "added": 27,
+      "skipped": 21
+    }
+  },
+  "domains": {
+    "基因突变与分子机制": 37,
+    "临床治疗": 152,
+    "系统治疗": 923,
+    "外科手术": 296,
+    "基因靶点": 56,
+    "LARS与并发症": 39,
+    "造口·随访·筛查": 659,
+    "病理·营养·预后": 41,
+    "分期系统": 40,
+    "随访与预后": 40,
+    "围手术期管理": 124,
+    "临床诊断-分子分型": 33,
+    "临床治疗-靶向治疗": 5,
+    "临床治疗-免疫治疗": 53,
+    "临床诊断-病理": 2,
+    "临床诊断-分子标志物": 8,
+    "临床治疗-辅助治疗": 3,
+    "临床治疗-新辅助治疗": 17,
+    "临床诊断-流行病学": 11,
+    "临床诊断-筛查": 9,
+    "特殊人群-IBD相关": 2,
+    "特殊人群-遗传综合征": 28,
+    "特殊人群-年轻发病": 4,
+    "临床治疗-支持治疗": 32,
+    "临床诊断": 33,
+    "阑尾肿瘤": 181,
+    "肛管癌": 910
+  },
+  "evidence_levels": {
+    "I级": 557,
+    "II级": 133,
+    "专家共识": 95,
+    "I级专家共识": 2864,
+    "I级证据": 62,
+    "II级证据": 27
+  },
+  "top_sources": {
+    "ASCRS Clinical Practice Guidelines - Anal Squamous Cell Canc": 492,
+    "ASCRS Clinical Practice Guidelines - Management of Rectal Ca": 468,
+    "ASCRS Clinical Practice Guidelines - Ostomy Surgery 2021": 439,
+    "ASCRS Clinical Practice Guidelines - Inherited Adenomatous P": 380,
+    "ASCRS Clinical Practice Guidelines - Surveillance and Surviv": 312,
+    "ASCRS Clinical Practice Guidelines - Appendiceal Neoplasms 2": 230,
+    "ASCRS Clinical Practice Guidelines - Rectal Cancer 2023 Supp": 217,
+    "ASCRS Clinical Practice Guidelines - Perioperative Evaluatio": 197,
+    "CSCO 2024 结直肠癌诊疗指南": 179,
+    "ASCRS Clinical Practice Guidelines - Surgical Treatment of L": 87
+  }
+}
