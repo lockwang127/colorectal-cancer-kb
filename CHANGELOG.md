@@ -1,5 +1,23 @@
 # CHANGELOG - 结直肠癌通用知识库
 
+## [v1.3.1] - 2026-05-08
+
+### 知识库更新规范确立 + GitHub 同步自动化
+
+**新增文件：**
+
+- `UPDATE_POLICY.md` — 确立前瞻性增量更新原则（只更新新文献，不回头补旧）
+- `scripts/sync_to_github.py` — 一键同步构建产物到 GitHub（含 auto-commit + push）
+
+**更新规范要点：**
+
+- 批次命名：`literature_batch_YYYYMMDD.json`（日期格式）
+- 已入库内容永久冻结，不再修改源批次文件
+- 版本语义化递增（patch/minor/major）
+- 每次构建自动 push 到 GitHub
+
+---
+
 ## [v1.3.0] - 2026-05-07
 
 ### 临床研究知识扩展完成

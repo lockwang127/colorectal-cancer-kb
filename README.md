@@ -79,10 +79,14 @@ colorectal-cancer-kb/
 │   │   └── test_kb_format.py      # 格式验证工具
 │   ├── expand_from_literature.py   # 文献扩展脚本
 │   ├── parse_ascrs_guidelines.py   # ASCRS指南解析
-│   └── export_to_obsidian.py      # Obsidian格式导出
+│   ├── export_to_obsidian.py      # Obsidian格式导出
+│   ├── sync_to_github.py          # 自动同步到GitHub（含commit+push）
+│   └── tests/
+│       └── test_kb_format.py      # 格式验证工具
 ├── schemas/                        # 数据模式定义（JSON Schema）
 ├── docs/                          # 文档
-└── obsidian-export/              # Obsidian格式导出
+├── obsidian-export/              # Obsidian格式导出
+└── UPDATE_POLICY.md              # 知识库更新规范（必读）
 ```
 
 ---
@@ -173,6 +177,26 @@ python scripts/build_kb.py   # 重新构建知识库
 - **Obsidian兼容**：Markdown格式可直接导入Obsidian
 
 ---
+
+---
+
+## 🔄 知识库更新规范
+
+> 详见 [UPDATE_POLICY.md](UPDATE_POLICY.md)。
+
+**核心原则：前瞻性增量更新**
+
+- ✅ 每次更新只新增批次文件（`literature_batch_YYYYMMDD.json`），不修改已入库的旧文件
+- ✅ 只收录最新文献/指南/研究，不再回头补充历史旧文献
+- ✅ 每次构建自动同步到 GitHub（`python scripts/build_kb.py && python scripts/sync_to_github.py`）
+
+**版本递增规则：**
+
+| 触发条件 | 版本号 |
+|----------|--------|
+| 新增 ≥50 条三元组 | patch +1 |
+| 新增新 Domain 分类 | minor +1 |
+| 架构重构/字段变更 | major +1 |
 
 ---
 
