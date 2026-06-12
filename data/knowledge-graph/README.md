@@ -1,16 +1,18 @@
-# 结直肠癌通用知识库 - 初始化数据
+# Colorectal Cancer Knowledge Graph Data
 
 ## 本目录说明
 
-本目录包含知识图谱的初始三元组数据。
+本目录保存结直肠癌知识库的结构化三元组批次。当前主格式使用 `head / relation / tail`，同时保留少量早期 `subject / predicate / object` 文件以兼容历史数据。
 
 ---
 
 ## 当前状态
 
-- ✅ Schema 已定义
-- 🔄 数据初始化中...
-- ⏳ 等待首批贡献
+- Current release: `v1.0.0`
+- Updated: `2026-05-07`
+- Structured triplets: `3,738`
+- Knowledge domains: `27`
+- Source batches: `18`
 
 ---
 
@@ -18,13 +20,13 @@
 
 ### 方式一：直接编辑 JSON 文件
 
-1. 打开 `relations.json`
-2. 在数组中添加新的三元组（参考 `../schemas/README.md` 格式）
+1. 打开相应主题批次文件，或在 `relations.json` 中追加经整理后的三元组。
+2. 使用 `head / relation / tail / source / evidence / domain` 格式，并尽量补充 `confidence`。
 3. 运行校验脚本：
    ```bash
-   python ../scripts/validate_data.py
+   python3 scripts/validate_data.py
    ```
-4. 提交 PR
+4. 提交 PR。
 
 ### 方式二：使用 Python 脚本添加
 
@@ -37,14 +39,13 @@ with open('relations.json', 'r', encoding='utf-8') as f:
 
 # 添加新三元组
 new_relation = {
-    "subject": "结直肠癌",
-    "predicate": "一线治疗",
-    "object": "FOLFOX方案",
+    "head": "转移性结直肠癌",
+    "relation": "一线治疗方案",
+    "tail": "FOLFOX 或 CAPEOX 可作为常用化疗骨架",
     "conditions": {"分期": "IV期"},
-    "evidence_level": "I级",
+    "evidence": "I级",
     "source": "CSCO 2024",
-    "contributor": "您的姓名",
-    "date_added": "2026-05-06",
+    "domain": "系统治疗",
     "confidence": 0.95
 }
 
@@ -60,12 +61,10 @@ with open('relations.json', 'w', encoding='utf-8') as f:
 ## 数据质量检查
 
 - ✅ 所有必填字段完整
-- ✅ `evidence_level` 符合规范
+- ✅ `evidence` 符合规范
 - ✅ `source` 可追溯
+- ✅ `domain` 属于结直肠癌知识库范围
 - ✅ 无重复三元组
 - ✅ JSON 格式正确
 
 ---
-
-**初始化日期**: 2026-05-06  
-**维护者**: 汪晓东

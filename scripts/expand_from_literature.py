@@ -7,8 +7,10 @@
 import json
 import re
 from datetime import datetime
+from pathlib import Path
 
-KB_PATH = "/Users/wangxiaodong/colorectal-cancer-kb/data/knowledge-graph/relations.json"
+BASE_DIR = Path(__file__).parent.parent
+KB_PATH = str(BASE_DIR / "data" / "knowledge-graph" / "relations.json")
 
 # ========== 第一批：TME（直肠系膜切除术）============
 

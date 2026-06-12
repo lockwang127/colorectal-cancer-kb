@@ -66,10 +66,10 @@ def export_relations_to_obsidian():
     with open(relations_file, 'r', encoding='utf-8') as f:
         relations = json.load(f)
     
-    # 按subject分组，生成笔记
+    # 按知识主体分组，兼容当前 head/relation/tail 与早期 subject/predicate/object。
     subjects = {}
     for rel in relations:
-        subject = rel.get('subject', '未知')
+        subject = rel.get('head') or rel.get('subject') or '未知'
         if subject not in subjects:
             subjects[subject] = []
         subjects[subject].append(rel)
@@ -85,9 +85,9 @@ def export_relations_to_obsidian():
         content += "## 相关知识\n\n"
         
         for rel in rels:
-            predicate = rel.get('predicate', '')
-            obj = rel.get('object', '')
-            evidence = rel.get('evidence_level', '')
+            predicate = rel.get('relation') or rel.get('predicate') or ''
+            obj = rel.get('tail') or rel.get('object') or ''
+            evidence = rel.get('evidence') or rel.get('evidence_level') or ''
             source = rel.get('source', '')
             
             content += f"- **{predicate}**：[[{obj}]]（{evidence}，来源：{source}）\n"

@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
-"""
-结直肠癌知识库 - 数据校验脚本
-用于校验知识库中的数据格式是否符合规范
-"""
+"""Validate colorectal cancer knowledge-base source files."""
 
 import json
-import os
 import re
 from pathlib import Path
 
@@ -19,6 +15,10 @@ GREEN = "\033[92m"
 RED = "\033[91m"
 YELLOW = "\033[93m"
 RESET = "\033[0m"
+MAX_MESSAGES_PER_FILE = 20
+CURRENT_REQUIRED_FIELDS = ["head", "relation", "tail", "source", "evidence", "domain"]
+LEGACY_REQUIRED_FIELDS = ["subject", "predicate", "object", "source", "evidence_level", "confidence"]
+STANDARD_EVIDENCE = {"I级", "II级", "III级", "专家共识", "Guideline", "Literature"}
 
 def print_success(msg):
     print(f"{GREEN}✅ {msg}{RESET}")
@@ -30,7 +30,63 @@ def print_error(msg):
     print(f"{RED}❌ {msg}{RESET}")
 
 
-def validate_json_file(file_path, schema_type="relation"):
+def print_messages(messages, printer):
+    for message in messages[:MAX_MESSAGES_PER_FILE]:
+        printer(message)
+    omitted = len(messages) - MAX_MESSAGES_PER_FILE
+    if omitted > 0:
+        print_warning(f"还有 {omitted} 条同类信息未展开显示")
+
+
+def has_current_relation_fields(item):
+    return any(field in item for field in ("head", "relation", "tail", "evidence"))
+
+
+def has_legacy_relation_fields(item):
+    return any(field in item for field in ("subject", "predicate", "object", "evidence_level"))
+
+
+def validate_relation_item(item, index):
+    errors = []
+    warnings = []
+
+    if not isinstance(item, dict):
+        errors.append(f"第{index}条数据应为对象")
+        return errors, warnings
+
+    if has_current_relation_fields(item):
+        required_fields = CURRENT_REQUIRED_FIELDS
+        evidence_field = "evidence"
+    elif has_legacy_relation_fields(item):
+        required_fields = LEGACY_REQUIRED_FIELDS
+        evidence_field = "evidence_level"
+    else:
+        errors.append(f"第{index}条：无法识别关系字段，应使用 head/relation/tail")
+        return errors, warnings
+
+    for field in required_fields:
+        if field not in item:
+            errors.append(f"第{index}条数据缺少必填字段：{field}")
+        elif item[field] in ("", None):
+            errors.append(f"第{index}条数据字段为空：{field}")
+
+    evidence = item.get(evidence_field)
+    if evidence and isinstance(evidence, str) and evidence not in STANDARD_EVIDENCE:
+        if not any(token in evidence for token in ("级", "指南", "共识", "研究", "文献", "trial", "Trial", "RCT")):
+            warnings.append(f"第{index}条：{evidence_field} 值较不规范：{evidence}")
+
+    if "confidence" in item:
+        confidence = item["confidence"]
+        if not isinstance(confidence, (int, float)) or not 0 <= confidence <= 1:
+            warnings.append(f"第{index}条：confidence 应为0.0-1.0之间的数值")
+
+    if "conditions" in item and not isinstance(item["conditions"], dict):
+        warnings.append(f"第{index}条：conditions 建议使用对象格式")
+
+    return errors, warnings
+
+
+def validate_json_file(file_path):
     """校验JSON文件格式"""
     errors = []
     warnings = []
@@ -47,23 +103,28 @@ def validate_json_file(file_path, schema_type="relation"):
         errors.append("数据应为JSON数组格式")
         return errors, warnings
     
-    # 根据类型校验字段
-    if schema_type == "relation":
-        required_fields = ["subject", "predicate", "object", "evidence_level", "source", "contributor", "date_added", "confidence"]
-        for i, item in enumerate(data):
-            for field in required_fields:
-                if field not in item:
-                    errors.append(f"第{i+1}条数据缺少必填字段：{field}")
-            
-            # 检查 evidence_level
-            if "evidence_level" in item:
-                if item["evidence_level"] not in ["I级", "II级", "III级", "专家共识"]:
-                    warnings.append(f"第{i+1}条：evidence_level 值不标准（应为 I级/II级/III级/专家共识）")
-            
-            # 检查 confidence
-            if "confidence" in item:
-                if not isinstance(item["confidence"], (int, float)) or not 0 <= item["confidence"] <= 1:
-                    warnings.append(f"第{i+1}条：confidence 应为0.0-1.0之间的数值")
+    seen = set()
+    legacy_count = 0
+    for i, item in enumerate(data, start=1):
+        if isinstance(item, dict) and has_legacy_relation_fields(item):
+            legacy_count += 1
+        item_errors, item_warnings = validate_relation_item(item, i)
+        errors.extend(item_errors)
+        warnings.extend(item_warnings)
+
+        if isinstance(item, dict):
+            key = (
+                item.get("head") or item.get("subject"),
+                item.get("relation") or item.get("predicate"),
+                item.get("tail") or item.get("object"),
+                item.get("source"),
+            )
+            if key in seen:
+                warnings.append(f"第{i}条：可能重复的三元组")
+            seen.add(key)
+
+    if legacy_count:
+        warnings.append(f"文件包含 {legacy_count} 条早期 subject/predicate/object 字段，后续可逐步迁移到 head/relation/tail")
     
     return errors, warnings
 
@@ -127,11 +188,9 @@ def scan_directory():
         total_warnings += len(warnings)
         
         if errors:
-            for err in errors:
-                print_error(err)
+            print_messages(errors, print_error)
         if warnings:
-            for warn in warnings:
-                print_warning(warn)
+            print_messages(warnings, print_warning)
         if not errors and not warnings:
             print_success("格式正确")
             passed_files += 1
@@ -150,11 +209,9 @@ def scan_directory():
         total_warnings += len(warnings)
         
         if errors:
-            for err in errors:
-                print_error(err)
+            print_messages(errors, print_error)
         if warnings:
-            for warn in warnings:
-                print_warning(warn)
+            print_messages(warnings, print_warning)
         if not errors and not warnings:
             print_success("格式正确")
             passed_files += 1

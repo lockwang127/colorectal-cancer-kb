@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 批量解析ASCRS临床实践指南PDF，提取知识三元组
-来源：~/Desktop/CRC通用知识库/*.pdf
+来源：本地 ASCRS 指南 PDF 资料夹
 """
 
 import pdfplumber
@@ -9,9 +9,11 @@ import json
 import re
 import os
 from datetime import datetime
+from pathlib import Path
 
-GUIDE_DIR = "/Users/wangxiaodong/Desktop/CRC通用知识库"
-OUTPUT_DIR = "/Users/wangxiaodong/colorectal-cancer-kb/data/knowledge-graph"
+BASE_DIR = Path(__file__).parent.parent
+GUIDE_DIR = os.environ.get("CRC_ASCRS_GUIDE_DIR", str(BASE_DIR / "source-pdfs" / "ascrs"))
+OUTPUT_DIR = str(BASE_DIR / "data" / "knowledge-graph")
 MAIN_KB = f"{OUTPUT_DIR}/relations.json"
 OUT_EXTENDED = f"{OUTPUT_DIR}/relations_ascrs.json"
 
